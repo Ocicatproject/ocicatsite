@@ -16,16 +16,20 @@
 }
 
 :root {
-  --background: 0 0% 100%;
-  --foreground: 0 0% 3.9%;
-  --primary: 39 100% 50%;
-  --primary-foreground: 0 0% 98%;
+  --font-bebas: var(--font-bebas);
+  --font-montserrat: var(--font-montserrat);
+  --font-luckiest: var(--font-luckiest);
 }
 
-.dark {
-  --background: 0 0% 3.9%;
-  --foreground: 0 0% 98%;
-  --primary: 39 100% 50%;
-  --primary-foreground: 0 0% 9%;
+.font-bebas {
+  font-family: var(--font-bebas);
+}
+
+.font-montserrat {
+  font-family: var(--font-montserrat);
+}
+
+.font-luckiest {
+  font-family: var(--font-luckiest);
 }
 
