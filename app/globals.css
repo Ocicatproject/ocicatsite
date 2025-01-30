@@ -98,5 +98,9 @@ body {
 }
 
 .buttonshadow{
-  box-shadow: 1px 1px 1px 1px black;
+  box-shadow: 2px 2px 1px 1px black;
+}
+.buttonshadoww{
+  box-shadow: 2px 2px 1px 1px white;
+
 }

@@ -28,12 +28,12 @@ export default function OcicatLanding() {
   };
 
   return (
-    <div className="min-h-screen bg-[#000013] font-bebas ">
+    <div className="min-h-screen bg-primary/70 font-bebas ">
       {/* Hero Section */}
-      <section className="container px-12 py-8 md:py-12">
+      <section className="container px-12 pt-8 md:pt-28">
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div className="relative w-full hidden md:block">
-            <div className="absolute inset-0 bg-gradient-to-r from-transparent to-[#000013] z-10 w-full h-full"></div>
+            <div className="absolute inset-0 z-10 w-full h-full"></div>
             <Image
               src={`/secondbg.png`}
               alt="Ocicat with Rocket"
@@ -43,12 +43,12 @@ export default function OcicatLanding() {
             />
           </div>
           <div className="space-y-6">
-            <h1 className="text-center md:text-left text-5xl md:text-7xl font-bold">
-              <span className="text-[#f0343d]">COMMUNITY</span>
+            <h1 className="text-center md:text-right text-5xl md:text-7xl font-bold mt-5">
+              <span className="text-background">COMMUNITY</span>
               <br />
               <span className="text-[#d5d5d5]">TAKE OVER</span>
             </h1>
-            <p className="text-[#d5d5d5] text-lg font-montserrat">
+            <p className="text-[#d5d5d5] text-lg font-montserrat text-center md:text-right">
               The Power Is Shifting Into The Hands Of The People! The OcicatTARO
               Community Has Taken Control, Turning This Project Into A
               Full-Blown, Community-Driven Revolution. This Isn't Just A
@@ -56,10 +56,10 @@ export default function OcicatLanding() {
               Drives The Direction, Decisions, And Future Of The Project.
             </p>
             <div className="grid grid-cols-2 gap-4">
-              <Button className=" text-black hover:bg-white/30  bg-[#f0343d] font-bold text-lg border-2 border-black buttonshadow">
+              <Button className="py-6 text-foreground bg-background hover:bg-white/30   font-bold text-xl border-2 border-black buttonshadow">
                 BUY $Ocicat
               </Button>
-              <Button className=" text-black bg-[#f0343d] hover:bg-white/30 border-2 border-black buttonshadow  font-bold text-lg">
+              <Button className="py-6 text-black bg-[#f0343d] hover:bg-white/30 border-2 border-black buttonshadow  font-bold text-xl">
                 VIEW CHART
               </Button>
             </div>
@@ -68,41 +68,41 @@ export default function OcicatLanding() {
       </section>
 
       {/* Tokenomics Section */}
-      <section className="md:px-4 px-0 py-8 mx-4 md:mx-40">
-        <Card className="bg-[#f0343d]/50 p-6 space-y-6 w-[100%]">
-          <h2 className="md:text-9xl text-5xl font-bold text-[#d5d5d5]">TOKENOMICS</h2>
-          <div className="flex flex-col md:flex-row gap-8 w-4/5 justify-between mx-2  md:mx-10">
-            <div className="md:w-3/5 space-y-4 max-w-[95%]">
+      <section className="md:px-4 px-0 pb-8 mx-4 md:mx-40 ">
+        <Card className="bg-background/60 p-6 space-y-6 w-[100%] border-4 mt-4 md:mt-0 border-background buttonshadow">
+          <h2 className="md:text-9xl text-center md:text-left text-5xl font-bold text-[#d5d5d5]">TOKENOMICS</h2>
+          <div className="flex flex-col md:flex-row gap-8  justify-between mx-2 text-foreground  md:mx-10">
+            <div className="md:w-3/5 space-y-4 max-w-[100%]">
               <ul className="space-y-2 text-xl underline font-medium font-montserrat">
                 <li>✓ LP Burned</li>
                 <li>✓ Contract Renounced</li>
                 <li>✓ 2% Sent To Vitalik</li>
                 <li>✓ Multisig Marketing Wallet Created</li>
               </ul>
-              <div className="bg-white/10 p-4 rounded-lg flex flex-row justify-between items-center gap-2">
-                <code className="text-sm w-full">
+              <div className="bg-foreground p-4 rounded-lg flex flex-row justify-between items-center gap-2 border-2 border-background buttonshadow">
+                <code className="w-full bg-foreground text-background text-xl">
                   0xc58fc8b41fccbd05
                 </code>
                 <Button variant="ghost" size="icon" onClick={copyAddress}>
-                  <Copy className="h-4 w-4" />
+                  <Copy className="h-4 w-4 text-background" />
                 </Button>
               </div>
-              <div className="max-w-full grid  grid-cols-2 md:grid-cols-3 gap-2 md:gap-4">
-                <Card className="p-4 text-center bg-black/10">
+              <div className="max-w-full grid text-foreground grid-cols-2 md:grid-cols-3 gap-2 md:gap-4">
+                <Card className="p-4 text-center text-foreground bg-black/10">
                   <h3 className="font-bold">0%</h3>
                   <p>BURNED TOKENS</p>
                 </Card>
-                <Card className="p-4 text-center bg-white/10">
+                <Card className="p-4 text-center text-foreground bg-white/10">
                   <h3 className="font-bold">SUPPLY: 10B</h3>
                   <p>NAME: Ocicat</p>
                 </Card>
-                <Card className="p-4 text-center bg-black/10">
+                <Card className="p-4 text-center text-foreground bg-black/10">
                   <h3 className="font-bold">0/0</h3>
                   <p>TAX</p>
                 </Card>
               </div>
             </div>
-            <div className="md:w-2/5 flex items-center justify-center">
+            <div className="w-full flex items-center justify-center">
               <div className="relative w-fit h-fit rounded-full overflow-hidden">
                 <Image
                   src="/rounded.jpeg"
