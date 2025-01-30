@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Copy, Pause, Play } from "lucide-react";
 
-export default function MaruLanding() {
+export default function OcicatLanding() {
   const [isPlaying, setIsPlaying] = useState(false);
   const audioRef = useRef<HTMLAudioElement>(null);
 
@@ -32,14 +32,14 @@ export default function MaruLanding() {
       {/* Hero Section */}
       <section className="container px-12 py-8 md:py-12">
         <div className="grid md:grid-cols-2 gap-8 items-center">
-          <div className="relative w-full h-full hidden md:block">
+          <div className="relative w-full hidden md:block">
             <div className="absolute inset-0 bg-gradient-to-r from-transparent to-[#000013] z-10 w-full h-full"></div>
             <Image
-              src={`/dreamers.jpeg`}
-              alt="Maru with Rocket"
-              width={400}
-              height={400}
-              className="w-full relative z-0 h-full"
+              src={`/secondbg.png`}
+              alt="Ocicat with Rocket"
+              width={100}
+              height={100}
+              className="w-4/5 relative z-0"
             />
           </div>
           <div className="space-y-6">
@@ -49,7 +49,7 @@ export default function MaruLanding() {
               <span className="text-[#d5d5d5]">TAKE OVER</span>
             </h1>
             <p className="text-[#d5d5d5] text-lg font-montserrat">
-              The Power Is Shifting Into The Hands Of The People! The MARUTARO
+              The Power Is Shifting Into The Hands Of The People! The OcicatTARO
               Community Has Taken Control, Turning This Project Into A
               Full-Blown, Community-Driven Revolution. This Isn't Just A
               Takeover—It's The Beginning Of A New Era Where The Community
@@ -57,7 +57,7 @@ export default function MaruLanding() {
             </p>
             <div className="grid grid-cols-2 gap-4">
               <Button className=" text-black hover:bg-white/30  bg-[#f0343d] font-bold text-lg border-2 border-black buttonshadow">
-                BUY $MARU
+                BUY $Ocicat
               </Button>
               <Button className=" text-black bg-[#f0343d] hover:bg-white/30 border-2 border-black buttonshadow  font-bold text-lg">
                 VIEW CHART
@@ -68,12 +68,12 @@ export default function MaruLanding() {
       </section>
 
       {/* Tokenomics Section */}
-      <section className="md:px-4 px-0 py-8 mx-4 md:mx-24">
-        <Card className="bg-[#f0343d] p-6 space-y-6 w-[100%]">
-          <h2 className="text-4xl font-bold text-[#d5d5d5]">TOKENOMICS</h2>
-          <div className="grid md:grid-cols-[2fr_1fr] gap-8">
-            <div className="space-y-4 max-w-[95%]">
-              <ul className="space-y-2 text-lg font-medium">
+      <section className="md:px-4 px-0 py-8 mx-4 md:mx-40">
+        <Card className="bg-[#f0343d]/50 p-6 space-y-6 w-[100%]">
+          <h2 className="md:text-9xl text-5xl font-bold text-[#d5d5d5]">TOKENOMICS</h2>
+          <div className="flex flex-col md:flex-row gap-8 w-4/5 justify-between mx-2  md:mx-10">
+            <div className="md:w-3/5 space-y-4 max-w-[95%]">
+              <ul className="space-y-2 text-xl underline font-medium font-montserrat">
                 <li>✓ LP Burned</li>
                 <li>✓ Contract Renounced</li>
                 <li>✓ 2% Sent To Vitalik</li>
@@ -94,7 +94,7 @@ export default function MaruLanding() {
                 </Card>
                 <Card className="p-4 text-center bg-white/10">
                   <h3 className="font-bold">SUPPLY: 10B</h3>
-                  <p>NAME: MARU</p>
+                  <p>NAME: Ocicat</p>
                 </Card>
                 <Card className="p-4 text-center bg-black/10">
                   <h3 className="font-bold">0/0</h3>
@@ -102,14 +102,14 @@ export default function MaruLanding() {
                 </Card>
               </div>
             </div>
-            <div className="flex items-center justify-center">
-              <div className="relative w-48 h-48">
+            <div className="md:w-2/5 flex items-center justify-center">
+              <div className="relative w-fit h-fit rounded-full overflow-hidden">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cleaner-THQAvpa16Obqv2fnDOGG4YQcFol8a5.png"
-                  alt="Maru token distribution"
+                  src="/rounded.jpeg"
+                  alt="Ocicat token distribution"
                   width={200}
                   height={200}
-                  className="rounded-full"
+                  className=""
                 />
               </div>
             </div>
@@ -119,12 +119,12 @@ export default function MaruLanding() {
 
       {/* Audio Player Section */}
       {/* <section className="container px-4 py-8">
-        <h2 className="text-4xl font-bold text-[#d5d5d5] text-center mb-6">Maru Song</h2>
+        <h2 className="text-4xl font-bold text-[#d5d5d5] text-center mb-6">Ocicat Song</h2>
         <Card className="bg-[#FFD700] p-4">
           <div className="flex items-center gap-4">
             <Image
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/cleaner-THQAvpa16Obqv2fnDOGG4YQcFol8a5.png"
-              alt="Maru"
+              alt="Ocicat"
               width={40}
               height={40}
               className="rounded-full"
@@ -144,7 +144,7 @@ export default function MaruLanding() {
           </div>
         </Card>
         <audio ref={audioRef} className="hidden">
-          <source src="/maru-song.mp3" type="audio/mpeg" />
+          <source src="/Ocicat-song.mp3" type="audio/mpeg" />
         </audio>  </section> */}
     </div>
   );

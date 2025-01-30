@@ -9,7 +9,7 @@ export default function Landing() {
       <header className="flex justify-between items-center p-4">
         <Image
           src={`${process.env.NEXT_PUBLIC_ASSETS_URL}/p7m8Z.webp`}
-          alt="Maru Logo"
+          alt="Ocicat Logo"
           width={40}
           height={40}
           className="rounded-full"
@@ -29,7 +29,7 @@ export default function Landing() {
         <div className="container px-4 py-12 text-center">
           <Image
             src={`${process.env.NEXT_PUBLIC_ASSETS_URL}/p7m8Z.webp`}
-            alt="Maru Character"
+            alt="Ocicat Character"
             width={300}
             height={300}
             className="mx-auto"
@@ -38,7 +38,7 @@ export default function Landing() {
         <div className="absolute bottom-0 w-full overflow-hidden">
           <div className="animate-marquee whitespace-nowrap">
             {Array(10)
-              .fill("SMARU")
+              .fill("SOcicat")
               .map((text, i) => (
                 <span key={i} className="mx-4 text-xl">
                   ⭐ {text}
@@ -48,19 +48,19 @@ export default function Landing() {
         </div>
       </section>
 
-      {/* What is Maru Coin Section */}
+      {/* What is Ocicat Coin Section */}
       <section className="bg-gradient-to-b from-yellow-400 to-orange-500 py-16">
         <div className="container px-4">
           <h2 className="text-4xl font-bold mb-8">
             WHAT IS
-            <span className="text-red-600"> SMARU</span> COIN?
+            <span className="text-red-600"> SOcicat</span> COIN?
           </h2>
           <div className="grid md:grid-cols-2 gap-8 items-center">
             <div className="space-y-4">
               <p className="text-sm opacity-75">
-                SMARU Coin Means To Set Love In SMARUCOIN. The Famous Doge Has Slim Physique To Promote Generosity.
-                Early In 2021, SMARU Became A Social Token After Optimistic Investors Discovered It. The SMARU Community
-                Has Grown To Over 2 Million Members. We Support Our And Push Project's Community Telegram SMARU & Token
+                SOcicat Coin Means To Set Love In SOcicatCOIN. The Famous Doge Has Slim Physique To Promote Generosity.
+                Early In 2021, SOcicat Became A Social Token After Optimistic Investors Discovered It. The SOcicat Community
+                Has Grown To Over 2 Million Members. We Support Our And Push Project's Community Telegram SOcicat & Token
                 Contract By Below We Generate The Smart Contract Of Binance Smart.
               </p>
               <div className="flex gap-4">
@@ -74,7 +74,7 @@ export default function Landing() {
             </div>
             <Image
               src={`${process.env.NEXT_PUBLIC_ASSETS_URL}/p7m8Z.webp`}
-              alt="Maru with Rocket"
+              alt="Ocicat with Rocket"
               width={400}
               height={400}
               className="mx-auto"
@@ -91,7 +91,7 @@ export default function Landing() {
             <span className="block">TAKE OVER</span>
           </h2>
           <div className="grid sm:grid-cols-2 gap-4 max-w-md mx-auto">
-            <Button className="bg-yellow-400 hover:bg-yellow-500 text-black font-bold">BUY SMARU!</Button>
+            <Button className="bg-yellow-400 hover:bg-yellow-500 text-black font-bold">BUY SOcicat!</Button>
             <Button variant="outline" className="border-yellow-400 text-yellow-400 hover:bg-yellow-400/20">
               VIEW CHART
             </Button>
@@ -121,7 +121,7 @@ export default function Landing() {
               <div className="relative w-48 h-48 rounded-full bg-red-600">
                 <Image
                   src={`${process.env.NEXT_PUBLIC_ASSETS_URL}/p7m8Z.webp`}
-                  alt="Maru Logo"
+                  alt="Ocicat Logo"
                   width={80}
                   height={80}
                   className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
@@ -132,10 +132,10 @@ export default function Landing() {
         </div>
       </section>
 
-      {/* Maru Song Section */}
+      {/* Ocicat Song Section */}
       <section className="bg-red-500 py-8">
         <div className="container px-4">
-          <h2 className="text-4xl font-bold mb-4">Maru Song</h2>
+          <h2 className="text-4xl font-bold mb-4">Ocicat Song</h2>
           <div className="bg-white/10 p-4 rounded-lg flex items-center gap-4">
             <Button size="icon" className="bg-yellow-400 hover:bg-yellow-500">
               <Play className="h-4 w-4 text-black" />
@@ -206,13 +206,13 @@ export default function Landing() {
           <div className="flex flex-col items-center gap-4">
             <Image
               src={`${process.env.NEXT_PUBLIC_ASSETS_URL}/p7m8Z.webp`}
-              alt="Maru Logo"
+              alt="Ocicat Logo"
               width={60}
               height={60}
               className="rounded-full"
             />
             <p className="text-xs text-center max-w-lg opacity-75">
-              SMARU is a Decentralized Fan Platform Specially Developed, Built By The Community For The Community. Join
+              SOcicat is a Decentralized Fan Platform Specially Developed, Built By The Community For The Community. Join
               Us In Our Journey To Take The Dog To The Moon.
             </p>
             <div className="flex gap-4">
