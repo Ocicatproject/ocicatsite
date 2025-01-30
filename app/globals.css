@@ -96,3 +96,7 @@ body {
 .stroked{
   -webkit-text-stroke: 1px black;
 }
+
+.buttonshadow{
+  box-shadow: 1px 1px 1px 1px black;
+}
