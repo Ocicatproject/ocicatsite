@@ -107,8 +107,8 @@ export default function OcicatLanding() {
                 <Image
                   src="/rounded.jpeg"
                   alt="Ocicat token distribution"
-                  width={200}
-                  height={200}
+                  width={400}
+                  height={400}
                   className=""
                 />
               </div>
