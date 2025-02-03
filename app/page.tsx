@@ -127,9 +127,9 @@ export default function Landing() {
         </h2>
         <div className=" px-4">
           <div className="grid md:grid-cols-2 gap-8 items-center">
-            <div className="relative w-full h-full  -rotate-12 -z-50">
+            <div className="relative w-full h-full  -z-50">
               <Image
-                src={`/catunderconstruction.png`}
+                src={`/catconstruction.jpg`}
                 alt="New Image"
                 width={200}
                 height={200}
@@ -149,7 +149,7 @@ export default function Landing() {
                     Staking/DAO
                   </h3>
                 </header>
-                <p className="font-montserrat text-xs pt-4">
+                <p className="font-montserrat text-sm pt-4">
                   Stake Ocicat token to earn from daily pool emission.The pool
                   has 40/60 percentage reward share with token and liquidity.
                   Alpha pool has double delegation power.See more
@@ -170,7 +170,7 @@ export default function Landing() {
                     Ocicat MiniApp
                   </h3>
                 </header>
-                <p className="font-montserrat text-xs pt-4">
+                <p className="font-montserrat text-sm pt-4">
                   Stake Ocicat token to earn from daily pool emission.The pool
                   has 40/60 percentage reward share with token and liquidity.
                   Alpha pool has double delegation power.See more
@@ -191,7 +191,7 @@ export default function Landing() {
                     Ocicat NFT
                   </h3>
                 </header>
-                <p className="font-montserrat text-xs pt-4">
+                <p className="font-montserrat text-sm pt-4">
                   Stake Ocicat token to earn from daily pool emission.The pool
                   has 40/60 percentage reward share with token and liquidity.
                   Alpha pool has double delegation power.See more
@@ -212,7 +212,7 @@ export default function Landing() {
                     Ocicat Bridge
                   </h3>
                 </header>
-                <p className="font-montserrat text-xs pt-4">
+                <p className="font-montserrat text-sm pt-4">
                   Stake Ocicat token to earn from daily pool emission.The pool
                   has 40/60 percentage reward share with token and liquidity.
                   Alpha pool has double delegation power.See more
