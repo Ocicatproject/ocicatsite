@@ -8,7 +8,7 @@ import CommunityDisplay from "@/components/Home/CommunityTakeover";
 export default function Landing() {
   return (
     <div
-      className={`min-h-screen ${bebasNeue.variable} ${montserrat.variable} ${luckiestGuy.variable}`}
+      className={`min-h-screen min-w-screen ${bebasNeue.variable} ${montserrat.variable} ${luckiestGuy.variable}`}
     >
       {/* Header */}
       <header className="w-full px-4 md:px-16 flex justify-between items-center fixed bg-background z-50 py-2 md:py-4">
@@ -32,6 +32,12 @@ export default function Landing() {
           >
             <X className="h-4 w-4" />
           </Link>
+          <Link
+            href="/x"
+            className="bg-primary/80 hover:bg-white/30 text-background flex border-black border-2 px-4 py-3 items-center rounded-lg buttonshadow"
+          >
+            <span className="uppercase">Buy $OCICAT</span>
+          </Link>
         </div>
       </header>
 
@@ -45,7 +51,7 @@ export default function Landing() {
             height={60}
             className="w-full h-full bg-cover hidden md:block"
           />
-           <Image
+          <Image
             src={`/bgmobile.png`}
             alt="Ocicat Logo"
             width={100}
@@ -84,20 +90,20 @@ export default function Landing() {
             </h2>
             <p className="font-montserrat opacity-75 text-lg md:text-xl text-foreground">
               SOcicat Coin Means To Set Love In SOcicatCOIN. The Famous Doge Has
-              Slim Physique To Promote Generosity. Early In 2021, SOcicat Became A
-              Social Token After Optimistic Investors Discovered It.
+              Slim Physique To Promote Generosity. Early In 2021, SOcicat Became
+              A Social Token After Optimistic Investors Discovered It.
             </p>
-            <div className="w-fit md:w-[70%] flex flex-row mt-5 justify-around gap-4 border-2 buttonshadow border-black bg-primary/80  py-6 md:px-4 px-8 rounded-lg">
-              <button className="bg-primary/80 text-background hover:bg-white/30 -rotate-6 flex border-black border-2 px-6 py-6 items-center rounded-lg buttonshadow">
+            <div className="w-fit md:w-[70%] flex flex-row mt-5 justify-around gap-4 border-2 buttonshadow border-black bg-primary/80 py-4  md:py-6 md:px-4 px-4 rounded-lg">
+              <button className="bg-primary/80 px-4 py-4 md:px-6 md:py-6  text-background hover:bg-white/30 -rotate-6 flex border-black border-2 items-center rounded-lg buttonshadow">
                 <X className="h-4 w-4" />
               </button>
-              <button className="bg-primary/80 text-background hover:bg-white/30 rotate-12 flex border-black border-2 px-6 py-6 items-center rounded-lg buttonshadow">
+              <button className="bg-primary/80 text-background hover:bg-white/30 rotate-12 flex border-black border-2 px-4 py-4 md:px-6 md:py-6 items-center rounded-lg buttonshadow">
                 <Volume2 className="h-4 w-4" />
               </button>
-              <button className="bg-primary/80 text-background hover:bg-white/30 -rotate-12 flex border-black border-2 px-6 py-6 items-center rounded-lg buttonshadow">
+              <button className="bg-primary/80 text-background hover:bg-white/30 -rotate-12 flex border-black border-2 px-4 py-4 md:px-6 md:py-6  items-center rounded-lg buttonshadow">
                 <Volume2 className="h-4 w-4" />
               </button>
-              <button className="bg-primary/80 text-background hover:bg-white/30 rotate-6 flex border-black border-2 px-6 py-6 items-center rounded-lg buttonshadow">
+              <button className="bg-primary/80 text-background hover:bg-white/30 rotate-6 flex border-black border-2 px-4 py-4 md:px-6 md:py-6 items-center rounded-lg buttonshadow">
                 <Volume2 className="h-4 w-4" />
               </button>
             </div>
@@ -111,6 +117,111 @@ export default function Landing() {
               height={400}
               className="w-full relative  h-full"
             />
+          </div>
+        </div>
+      </section>
+      {/* New Section */}
+      <section className=" bg-background/10 py-16 ">
+        <h2 className="font-bebas text-5xl md:text-9xl font-semibold w-full text-center my-10  text-foreground">
+          <span className="text-primary/80"> $OCICAT</span> ECOSYSTEM
+        </h2>
+        <div className=" px-4">
+          <div className="grid md:grid-cols-2 gap-8 items-center">
+            <div className="relative w-full h-full  -rotate-12 -z-50">
+              <Image
+                src={`/catunderconstruction.png`}
+                alt="New Image"
+                width={200}
+                height={200}
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div className=" bg-background p-4 rounded-xl border border-primary">
+                <header className="flex flex-row justify-start">
+                  <Image
+                    src="/dao.png"
+                    alt="Dao"
+                    width={20}
+                    height={20}
+                  ></Image>
+                  <h3 className="font-bebas text-md text-center w-full">
+                    Staking/DAO
+                  </h3>
+                </header>
+                <p className="font-montserrat text-xs pt-4">
+                  Stake Ocicat token to earn from daily pool emission.The pool
+                  has 40/60 percentage reward share with token and liquidity.
+                  Alpha pool has double delegation power.See more
+                </p>
+                <button className="px-10 w-fit rounded-full bg-primary text-background text-sm py-1 mt-3 mx-auto flex">
+                  Stake Ocicat
+                </button>
+              </div>
+              <div className=" bg-background p-4 rounded-xl border border-primary">
+                <header className="flex flex-row justify-start">
+                  <Image
+                    src="/miniapp.png"
+                    alt="Dao"
+                    width={20}
+                    height={20}
+                  ></Image>
+                  <h3 className="font-bebas text-md text-center w-full">
+                    Ocicat MiniApp
+                  </h3>
+                </header>
+                <p className="font-montserrat text-xs pt-4">
+                  Stake Ocicat token to earn from daily pool emission.The pool
+                  has 40/60 percentage reward share with token and liquidity.
+                  Alpha pool has double delegation power.See more
+                </p>
+                <button className="px-10 w-fit rounded-full bg-primary text-background text-sm py-1 mt-3 mx-auto flex">
+                  Open App
+                </button>
+              </div>
+              <div className=" bg-background p-4 rounded-xl border border-primary">
+                <header className="flex flex-row justify-start">
+                  <Image
+                    src="/nft.png"
+                    alt="Dao"
+                    width={20}
+                    height={20}
+                  ></Image>
+                  <h3 className="font-bebas text-md text-center w-full">
+                    Ocicat NFT
+                  </h3>
+                </header>
+                <p className="font-montserrat text-xs pt-4">
+                  Stake Ocicat token to earn from daily pool emission.The pool
+                  has 40/60 percentage reward share with token and liquidity.
+                  Alpha pool has double delegation power.See more
+                </p>
+                <button className="px-10 w-fit rounded-full bg-primary text-background text-sm py-1 mt-3 mx-auto flex">
+                  Mint NFT
+                </button>
+              </div>
+              <div className=" bg-background p-4 rounded-2xl border border-primary">
+                <header className="flex flex-row justify-start">
+                  <Image
+                    src="/bridge.png"
+                    alt="Dao"
+                    width={20}
+                    height={20}
+                  ></Image>
+                  <h3 className="font-bebas text-md text-center w-full">
+                    Ocicat Bridge
+                  </h3>
+                </header>
+                <p className="font-montserrat text-xs pt-4">
+                  Stake Ocicat token to earn from daily pool emission.The pool
+                  has 40/60 percentage reward share with token and liquidity.
+                  Alpha pool has double delegation power.See more
+                </p>
+                <button className="px-10 w-fit rounded-full bg-primary text-background text-sm py-1 mt-3 mx-auto flex">
+                  Bridge Ocicat
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </section>
