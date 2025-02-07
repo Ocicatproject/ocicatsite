@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { bebasNeue, montserrat, luckiestGuy } from "@/app/fonts";
 import Link from "next/link";
 import CommunityDisplay from "@/components/Home/CommunityTakeover";
+import Roadmap from "@/components/Home/Roadmap";
 
 export default function Landing() {
   return (
@@ -36,9 +37,7 @@ export default function Landing() {
             href="/x"
             className="bg-primary/80 hover:bg-white/30 text-background flex border-black border-2 px-4 py-3 items-center rounded-lg buttonshadow"
           >
-            <span className="uppercase">
-              Buy $OCICAT
-            </span>
+            <span className="uppercase">Buy $OCICAT</span>
           </Link>
         </div>
       </header>
@@ -93,14 +92,12 @@ export default function Landing() {
             <p className="font-montserrat opacity-75 text-lg md:text-xl text-foreground">
               SOcicat Coin Means To Set Love In SOcicatCOIN. The Famous Doge Has
               Slim Physique To Promote Generosity. Early In 2021, SOcicat Became
-              A Social Token After Optimistic Investors Discovered It.
-            OciCat is a unique deflationary token built on the Binance Smart Chain,every 
-            transaction charges 5% reflection
-             designed for long-term sustainability and community-driven growth.
-              What sets OciCat apart is its strong and dedicated community,
-               which continues to drive its development and resilience.
-
-         
+              A Social Token After Optimistic Investors Discovered It. OciCat is
+              a unique deflationary token built on the Binance Smart Chain,every
+              transaction charges 5% reflection designed for long-term
+              sustainability and community-driven growth. What sets OciCat apart
+              is its strong and dedicated community, which continues to drive
+              its development and resilience.
             </p>
             <div className="w-fit md:w-[70%] flex flex-row mt-5 justify-around gap-4 border-2 buttonshadow border-black bg-primary/80 py-4  md:py-6 md:px-4 px-4 rounded-lg">
               <button className="bg-primary/80 px-4 py-4 md:px-6 md:py-6  text-background hover:bg-white/30 -rotate-6 flex border-black border-2 items-center rounded-lg buttonshadow">
@@ -237,7 +234,9 @@ export default function Landing() {
 
       {/* Community Section */}
       <CommunityDisplay />
+
       {/* Roadmap Section */}
+      <Roadmap />
       {/* <section className="bg-[#fdae03] py-16">
         <div className="container px-4">
           <h2 className="font-bebas text-5xl mb-8">ROADMAP</h2>
