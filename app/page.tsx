@@ -32,6 +32,14 @@ export default function Landing() {
           >
             <X className="h-4 w-4" />
           </Link>
+          <Link
+            href="/x"
+            className="bg-primary/80 hover:bg-white/30 text-background flex border-black border-2 px-4 py-3 items-center rounded-lg buttonshadow"
+          >
+            <span className="uppercase">
+              Buy $OCICAT
+            </span>
+          </Link>
         </div>
       </header>
 
@@ -83,9 +91,13 @@ export default function Landing() {
               <span className="text-primary/80"> $OCICAT</span> COIN?
             </h2>
             <p className="font-montserrat opacity-75 text-lg md:text-xl text-foreground">
-              SOcicat Coin Means To Set Love In SOcicatCOIN. The Famous Doge Has
-              Slim Physique To Promote Generosity. Early In 2021, SOcicat Became A
-              Social Token After Optimistic Investors Discovered It.
+            OciCat is a unique deflationary token built on the Binance Smart Chain,every 
+            transaction charges 5% reflection
+             designed for long-term sustainability and community-driven growth.
+              What sets OciCat apart is its strong and dedicated community,
+               which continues to drive its development and resilience.
+
+         
             </p>
             <div className="w-fit md:w-[70%] flex flex-row mt-5 justify-around gap-4 border-2 buttonshadow border-black bg-primary/80  py-6 md:px-4 px-8 rounded-lg">
               <button className="bg-primary/80 text-background hover:bg-white/30 -rotate-6 flex border-black border-2 px-6 py-6 items-center rounded-lg buttonshadow">

@@ -44,16 +44,21 @@ export default function OcicatLanding() {
           </div>
           <div className="space-y-6">
             <h1 className="text-center md:text-right text-5xl md:text-7xl font-bold mt-5">
-              <span className="text-background">COMMUNITY</span>
+              <span className="text-background">OCICAT</span>
               <br />
-              <span className="text-[#d5d5d5]">TAKE OVER</span>
+              <span className="text-[#d5d5d5]">TOKEN JOURNEY</span>
             </h1>
             <p className="text-[#d5d5d5] text-lg font-montserrat text-center md:text-right">
-              The Power Is Shifting Into The Hands Of The People! The OcicatTARO
-              Community Has Taken Control, Turning This Project Into A
-              Full-Blown, Community-Driven Revolution. This Isn't Just A
-              Takeover—It's The Beginning Of A New Era Where The Community
-              Drives The Direction, Decisions, And Future Of The Project.
+            OciCat is a distinctive deflationary token designed to unite a global community
+             of visionaries and innovators.
+             Our mission is to empower individuals who aspire to achieve great milestones
+              by providing systems that serve as a catalyst for transforming dreams into reality.
+
+              Every ambition begins as a small seed with the potential to create lasting impact.
+              OciCat fosters an ecosystem where these aspirations can grow, flourish, 
+              and contribute to a greater collective future. 
+              Through our deflationary model and community-driven initiatives,
+               we aim to build a sustainable and dynamic network of dreamers worldwide.
             </p>
             <div className="grid grid-cols-2 gap-4">
               <Button className="py-6 text-foreground bg-background hover:bg-white/30   font-bold text-xl border-2 border-black buttonshadow">
@@ -74,14 +79,19 @@ export default function OcicatLanding() {
           <div className="flex flex-col md:flex-row gap-8  justify-between mx-2 text-foreground  md:mx-10">
             <div className="md:w-3/5 space-y-4 max-w-[100%]">
               <ul className="space-y-2 text-xl underline font-medium font-montserrat">
-                <li>✓ LP Burned</li>
-                <li>✓ Contract Renounced</li>
-                <li>✓ 2% Sent To Vitalik</li>
-                <li>✓ Multisig Marketing Wallet Created</li>
+                
+                <li>✓ Initial Burn: 30%</li>
+                <li>✓ Staking Reward: 20%</li>
+                <li>✓ DAO: 10%</li>
+                <li>✓ Liquidity: 10%</li>
+                <li>✓ Distribution to holders: 30%</li>
+                <li>✓ 2% Reflection for marketing</li>
+                <li>✓ 3% Reflection for marketing</li>
+                
               </ul>
               <div className="bg-foreground p-4 rounded-lg flex flex-row justify-between items-center gap-2 border-2 border-background buttonshadow">
                 <code className="w-full bg-foreground text-background text-xl">
-                  0xc58fc8b41fccbd05
+                0x37fe635d1e25b2f7276c1b9dbbcc7b087f80c050
                 </code>
                 <Button variant="ghost" size="icon" onClick={copyAddress}>
                   <Copy className="h-4 w-4 text-background" />
@@ -89,26 +99,27 @@ export default function OcicatLanding() {
               </div>
               <div className="max-w-full grid text-foreground grid-cols-2 md:grid-cols-3 gap-2 md:gap-4">
                 <Card className="p-4 text-center text-foreground bg-black/10">
-                  <h3 className="font-bold">0%</h3>
-                  <p>BURNED TOKENS</p>
+                  <h3 className="font-bold">NAME</h3>
+                  <p>OCICAT</p>
                 </Card>
                 <Card className="p-4 text-center text-foreground bg-white/10">
-                  <h3 className="font-bold">SUPPLY: 10B</h3>
-                  <p>NAME: Ocicat</p>
+                  <h3 className="font-bold">SUPPLY: 1000T</h3>
+                  <p>TICKER: Ocicat</p>
                 </Card>
                 <Card className="p-4 text-center text-foreground bg-black/10">
-                  <h3 className="font-bold">0/0</h3>
-                  <p>TAX</p>
+                  <h3 className="font-bold">DECIMAL</h3>
+                  <p>6</p>
                 </Card>
+                
               </div>
             </div>
             <div className="w-full flex items-center justify-center">
               <div className="relative w-fit h-fit rounded-full overflow-hidden">
                 <Image
-                  src="/rounded.jpeg"
+                  src="/rounded.png"
                   alt="Ocicat token distribution"
-                  width={400}
-                  height={400}
+                  width={600}
+                  height={600}
                   className=""
                 />
               </div>
