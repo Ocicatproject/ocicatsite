@@ -134,14 +134,11 @@ export default function Landing() {
               <span className="text-primary/80"> $OCICAT</span> COIN?
             </h2>
             <p className="font-montserrat opacity-75 text-lg md:text-xl text-center md:text-left text-foreground">
-              SOcicat Coin Means To Set Love In SOcicatCOIN. The Famous Doge Has
-              Slim Physique To Promote Generosity. Early In 2021, SOcicat Became
-              A Social Token After Optimistic Investors Discovered It. OciCat is
-              a unique deflationary token built on the Binance Smart Chain,every
-              transaction charges 5% reflection designed for long-term
-              sustainability and community-driven growth. What sets OciCat apart
-              is its strong and dedicated community, which continues to drive
-              its development and resilience.
+              OciCat is a unique deflationary token built on the Binance Smart
+              Chain.Every transaction charges 5% reflection designed for
+              long-term sustainability and community-driven growth. What sets
+              OciCat apart is its strong and dedicated community, which
+              continues to drive its development and resilience.
             </p>
             <div className="w-fit mx-auto md:mx-0 md:w-[70%] flex flex-row mt-5 justify-around gap-4 border-2 buttonshadow border-black bg-primary/80 py-4  md:py-6 md:px-4 px-4 rounded-lg">
               <button className="bg-primary/80 px-4 py-4 md:px-6 md:py-6  text-background hover:bg-white/30 -rotate-6 flex border-black border-2 items-center rounded-lg buttonshadow">
@@ -187,7 +184,7 @@ export default function Landing() {
               />
             </div>
             <div className="md:w-3/5 grid grid-cols-1 md:grid-cols-2 gap-4 -mt-8 md:mt-0 md:-ml-60">
-              <div className=" bg-background p-4 rounded-xl border-4 border-primary">
+              <div className=" bg-background p-4 rounded-xl border-4 border-primary/70">
                 <header className="flex flex-row justify-start">
                   <Image
                     src="/stake.svg"
@@ -207,12 +204,12 @@ export default function Landing() {
                     See more
                   </Link>
                 </p>
-                <button className="px-10 w-fit rounded-full bg-primary text-background text-sm py-1 mt-3 mx-auto flex items-center">
+                <button className="px-10 w-fit rounded-full bg-primary/70 text-background text-sm py-1 mt-3 mx-auto flex items-center">
                   Stake Ocicat
                   <ArrowRight />
                 </button>
               </div>
-              <div className=" bg-background p-4 rounded-xl border-4 border-primary">
+              <div className=" bg-background p-4 rounded-xl border-4 border-primary/70">
                 <header className="flex flex-row justify-around">
                   <Image
                     src="/miniapp.png"
@@ -232,12 +229,12 @@ export default function Landing() {
                     See more
                   </Link>
                 </p>
-                <button className="px-10 w-fit rounded-full bg-primary text-background text-sm py-1 mt-3 mx-auto flex items-center">
+                <button className="px-10 w-fit rounded-full bg-primary/70 text-background text-sm py-1 mt-3 mx-auto flex items-center">
                   Open App
                   <ArrowRight />
                 </button>
               </div>
-              <div className=" bg-background p-4 rounded-xl border-4 border-primary">
+              <div className=" bg-background p-4 rounded-xl border-4 border-primary/70">
                 <header className="flex flex-row justify-start">
                   <Image
                     src="/nft.png"
@@ -257,12 +254,12 @@ export default function Landing() {
                     See more
                   </Link>
                 </p>
-                <button className="px-10 w-fit rounded-full bg-primary text-background text-sm py-1 mt-3 mx-auto flex items-center">
+                <button className="px-10 w-fit rounded-full bg-primary/70 text-background text-sm py-1 mt-3 mx-auto flex items-center">
                   Mint NFT
                   <ArrowRight />
                 </button>
               </div>
-              <div className=" bg-background p-4 rounded-2xl border-4 border-primary">
+              <div className=" bg-background p-4 rounded-2xl border-4 border-primary/70">
                 <header className="flex flex-row justify-start">
                   <Image
                     src="/bridge.svg"
@@ -282,7 +279,7 @@ export default function Landing() {
                     See more
                   </Link>
                 </p>
-                <button className="px-10 w-fit rounded-full bg-primary text-background text-sm py-1 mt-3 mx-auto flex items-center">
+                <button className="px-10 w-fit rounded-full bg-primary/70 text-background text-sm py-1 mt-3 mx-auto flex items-center">
                   Bridge Ocicat
                   <ArrowRight />
                 </button>
@@ -331,9 +328,9 @@ export default function Landing() {
             </div>
 
             <p className="font-montserrat text-lg text-center max-w-xl opacity-75">
-              $Ocicat is a Decentralized Fan Platform Specially Developed, Built
-              By The Community For The Community. Join Us In Our Journey To Take
-              The Dog To The Moon.
+              Ocicat started as a community driven meme coin. From 2023 the
+              project has sustained an upward tragetry. Join us as we
+              journey through our roadmap and more.
             </p>
             <div className="w-fit mx-auto md:mx-0 md:w-[30%] flex flex-row mt-5 justify-around gap-4 border-2 buttonshadow border-black bg-primary/80 py-4  md:py-6 md:px-4 px-4 rounded-lg">
               <button className="bg-primary/80 px-4 py-4 md:px-6 md:py-6  text-background hover:bg-white/30 -rotate-6 flex border-black border-2 items-center rounded-lg buttonshadow">

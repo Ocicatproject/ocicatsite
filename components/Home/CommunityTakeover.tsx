@@ -61,7 +61,7 @@ export default function OcicatLanding() {
               dynamic network of dreamers worldwide.
             </p>
             <div className="grid grid-cols-2 gap-4">
-            <Button className="py-6 text-foreground bg-white/30   font-bold text-2xl border-2 border-black buttonshadow">
+              <Button className="py-6 text-foreground bg-white/30   font-bold text-2xl border-2 border-black buttonshadow">
                 BUY $Ocicat
               </Button>
               <Button className="py-6 text-black bg-[#f0343d] hover:bg-white/30 border-2 border-black buttonshadow  font-bold text-xl">
@@ -90,7 +90,7 @@ export default function OcicatLanding() {
                 <li>✓ 3% Reflection for marketing</li>
               </ul>
               <div className="bg-foreground p-4 rounded-lg flex flex-row justify-between items-center gap-2 border-2 border-background buttonshadow">
-                <code className="w-[95%] inline break-words  bg-foreground text-background text-xl">
+                <code className="w-[95%] inline overflow-hidden  bg-foreground text-background text-xl">
                   0x37fe635d1e25b2f7276c1b9dbbcc7b087f80c050
                 </code>
                 <Button variant="ghost" size="icon" onClick={copyAddress}>
