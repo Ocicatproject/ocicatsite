@@ -8,6 +8,7 @@ import FAQ from "@/components/Home/FAQ";
 import { FaTelegramPlane } from "react-icons/fa";
 import { FaXTwitter, FaMedium } from "react-icons/fa6";
 import { useState } from "react";
+import { ProperBelt } from "@/components/Home/ProperBelt";
 export default function Landing() {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
   return (
@@ -33,32 +34,32 @@ export default function Landing() {
             alt="Ocicat Logo"
             width={40}
             height={40}
-            className="rounded-full"
+            className="rounded-full w-20"
           />
         </div>
         <div className="md:flex gap-4 font-bebas hidden text-xl">
           <Link
             href="http://t.me/ocicatapp_bot"
-            className="bg-primary/80 hover:bg-white/30 text-background  flex border-black border-2 px-4 py-3  items-center rounded-lg buttonshadow"
+            className="bg-primary/80 hover:bg-white/30 text-white/80  flex border-black border-2 px-4 py-3  items-center rounded-lg buttonshadow"
           >
             <span className="uppercase">Open APP</span>
           </Link>
           <Link
             href="https://drive.google.com/file/d/1-QtYExGOntx3UwZvtvpT7TWcbBfKJiSM/view?usp=sharing"
-            className="bg-primary/80 hover:bg-white/30 text-background flex border-black border-2 px-4 py-3 items-center rounded-lg buttonshadow"
+            className="bg-primary/80 hover:bg-white/30 text-white/80 flex border-black border-2 px-4 py-3 items-center rounded-lg buttonshadow"
           >
             <span className="uppercase">Documentation</span>
           </Link>
           <Link
             href="/x"
-            className="bg-primary/80 hover:bg-white/30 text-background flex border-black border-2 px-4 py-3 items-center rounded-lg buttonshadow"
+            className="bg-primary/80 text-white/80 hover:bg-white/30d flex border-black border-2 px-4 py-3 items-center rounded-lg buttonshadow"
           >
             <span className="uppercase">Buy $OCICAT</span>
           </Link>
         </div>
         <Link
           href="/x"
-          className="bg-primary/80 hover:bg-white/30 text-background flex md:hidden border-black border-2 px-4 py-1 items-center rounded-lg buttonshadow"
+          className="bg-primary/80 hover:bg-white/30 text-white/80  flex md:hidden border-black border-2 px-4 py-1 items-center rounded-lg buttonshadow"
         >
           <span className="uppercase">Buy $OCICAT</span>
         </Link>
@@ -126,7 +127,8 @@ export default function Landing() {
           />
         </div>
       </section>
-
+      {/* Image sections */}
+      <ProperBelt />
       {/* What is Ocicat Coin Section */}
       <section className="relative bg-background w-full  md:h-fit">
         <div className="grid md:grid-cols-2 gap-8 items-center h-full">
@@ -335,6 +337,8 @@ export default function Landing() {
       </section>
       {/* FAQ */}
       <FAQ />
+      {/* Image sections */}
+      <ProperBelt />
       {/* Footer */}
       <footer className="bg-background pt-20 relative">
         <div className="container px-4">
