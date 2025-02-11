@@ -5,6 +5,8 @@ import { bebasNeue, montserrat, luckiestGuy } from "@/app/fonts";
 import Link from "next/link";
 import CommunityDisplay from "@/components/Home/CommunityTakeover";
 import FAQ from "@/components/Home/FAQ";
+import { FaTelegramPlane } from "react-icons/fa";
+import { FaXTwitter, FaMedium } from "react-icons/fa6";
 import { useState } from "react";
 export default function Landing() {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
@@ -42,7 +44,7 @@ export default function Landing() {
             <span className="uppercase">Open APP</span>
           </Link>
           <Link
-            href="/x"
+            href="https://drive.google.com/file/d/1-QtYExGOntx3UwZvtvpT7TWcbBfKJiSM/view?usp=sharing"
             className="bg-primary/80 hover:bg-white/30 text-background flex border-black border-2 px-4 py-3 items-center rounded-lg buttonshadow"
           >
             <span className="uppercase">Documentation</span>
@@ -56,7 +58,7 @@ export default function Landing() {
         </div>
         <Link
           href="/x"
-          className="bg-primary/80 hover:bg-white/30 text-background flex border-black border-2 px-4 py-1 items-center rounded-lg buttonshadow"
+          className="bg-primary/80 hover:bg-white/30 text-background flex md:hidden border-black border-2 px-4 py-1 items-center rounded-lg buttonshadow"
         >
           <span className="uppercase">Buy $OCICAT</span>
         </Link>
@@ -141,18 +143,34 @@ export default function Landing() {
               continues to drive its development and resilience.
             </p>
             <div className="w-fit mx-auto md:mx-0 md:w-[70%] flex flex-row mt-5 justify-around gap-4 border-2 buttonshadow border-black bg-primary/80 py-4  md:py-6 md:px-4 px-4 rounded-lg">
-              <button className="bg-primary/80 px-4 py-4 md:px-6 md:py-6  text-background hover:bg-white/30 -rotate-6 flex border-black border-2 items-center rounded-lg buttonshadow">
-                <X className="h-4 w-4" />
-              </button>
-              <button className="bg-primary/80 text-background hover:bg-white/30 rotate-12 flex border-black border-2 px-4 py-4 md:px-6 md:py-6 items-center rounded-lg buttonshadow">
-                <Volume2 className="h-4 w-4" />
-              </button>
-              <button className="bg-primary/80 text-background hover:bg-white/30 -rotate-12 flex border-black border-2 px-4 py-4 md:px-6 md:py-6  items-center rounded-lg buttonshadow">
-                <Volume2 className="h-4 w-4" />
-              </button>
-              <button className="bg-primary/80 text-background hover:bg-white/30 rotate-6 flex border-black border-2 px-4 py-4 md:px-6 md:py-6 items-center rounded-lg buttonshadow">
-                <Volume2 className="h-4 w-4" />
-              </button>
+              <Link href="https://twitter.com/ocicatcoin">
+                <button className="bg-primary/80 px-4 py-4 md:px-6 md:py-6  text-background hover:bg-white/30 -rotate-6 flex border-black border-2 items-center rounded-lg buttonshadow">
+                  <FaXTwitter className="w-6 h-6" />
+                </button>
+              </Link>
+
+              <Link href="https://t.me/ocicatcoin">
+                <button className="bg-primary/80 text-background hover:bg-white/30 rotate-12 flex border-black border-2 px-4 py-4 md:px-6 md:py-6 items-center rounded-lg buttonshadow">
+                  <FaTelegramPlane className="w-6 h-6" />
+                </button>
+              </Link>
+
+              <Link href="https://t.me/ocicatcoin">
+                <button className="bg-primary/80 text-background hover:bg-white/30 -rotate-12 flex border-black border-2 px-4 py-4 md:px-6 md:py-6  items-center rounded-lg buttonshadow">
+                  <FaMedium className="w-6 h-6" />
+                </button>
+              </Link>
+
+              <Link href="https://t.me/ocicatcoin">
+                <button className="bg-primary/80 text-background hover:bg-white/30 rotate-6 flex border-black border-2 px-4 py-4 md:px-4 md:py-4 items-center rounded-lg buttonshadow">
+                  <Image
+                    src="/move.png"
+                    alt="Dexscreener"
+                    width={40}
+                    height={40}
+                  />
+                </button>
+              </Link>
             </div>
           </div>
           <div className="relative w-full h-full -top-20  md:top-0">
@@ -329,21 +347,26 @@ export default function Landing() {
 
             <p className="font-montserrat text-lg text-center max-w-xl opacity-75">
               Ocicat started as a community driven meme coin. From 2023 the
-              project has sustained an upward tragetry. Join us as we
-              journey through our roadmap and more.
+              project has sustained an upward tragetry. Join us as we journey
+              through our roadmap and more.
             </p>
             <div className="w-fit mx-auto md:mx-0 md:w-[30%] flex flex-row mt-5 justify-around gap-4 border-2 buttonshadow border-black bg-primary/80 py-4  md:py-6 md:px-4 px-4 rounded-lg">
               <button className="bg-primary/80 px-4 py-4 md:px-6 md:py-6  text-background hover:bg-white/30 -rotate-6 flex border-black border-2 items-center rounded-lg buttonshadow">
-                <X className="h-4 w-4" />
+                <FaXTwitter className="w-6 h-6" />
               </button>
               <button className="bg-primary/80 text-background hover:bg-white/30 rotate-12 flex border-black border-2 px-4 py-4 md:px-6 md:py-6 items-center rounded-lg buttonshadow">
-                <Volume2 className="h-4 w-4" />
+                <FaTelegramPlane className="w-6 h-6" />
               </button>
               <button className="bg-primary/80 text-background hover:bg-white/30 -rotate-12 flex border-black border-2 px-4 py-4 md:px-6 md:py-6  items-center rounded-lg buttonshadow">
-                <Volume2 className="h-4 w-4" />
+                <FaMedium className="w-6 h-6" />
               </button>
-              <button className="bg-primary/80 text-background hover:bg-white/30 rotate-6 flex border-black border-2 px-4 py-4 md:px-6 md:py-6 items-center rounded-lg buttonshadow">
-                <Volume2 className="h-4 w-4" />
+              <button className="bg-primary/80 text-background hover:bg-white/30 rotate-6 flex border-black border-2 px-4 py-4 md:px-4 md:py-4 items-center rounded-lg buttonshadow">
+                <Image
+                  src="/move.png"
+                  alt="Dexscreener"
+                  width={40}
+                  height={40}
+                />
               </button>
             </div>
           </div>
