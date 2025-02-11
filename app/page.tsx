@@ -38,7 +38,7 @@ export default function Landing() {
         </div>
         <div className="md:flex gap-4 font-bebas hidden text-xl">
           <Link
-            href="/x"
+            href="http://t.me/ocicatapp_bot"
             className="bg-primary/80 hover:bg-white/30 text-background  flex border-black border-2 px-4 py-3  items-center rounded-lg buttonshadow"
           >
             <span className="uppercase">Open APP</span>
@@ -65,32 +65,32 @@ export default function Landing() {
         {showMobileMenu && (
           <div className="absolute top-16 left-0 flex flex-col gap-4 font-bebas bg-background p-4 rounded-lg shadow-lg md:hidden">
             <Link
-              href="/x"
-              className=" hover:bg-white/30 text-primary  flex px-4  items-center"
+              href="#"
+              className=" hover:bg-white/30 text-white flex px-4  items-center"
             >
               <span className="uppercase">Staking/DAO</span>
             </Link>
             <Link
-              href="/x"
-              className=" hover:bg-white/30 text-primary flex px-4 items-center rounded-lg"
+              href="https://drive.google.com/file/d/1-QtYExGOntx3UwZvtvpT7TWcbBfKJiSM/view?usp=sharing"
+              className=" hover:bg-white/30 text-white flex px-4 items-center rounded-lg"
             >
               <span className="uppercase">Documentation</span>
             </Link>
             <Link
-              href="/x"
-              className=" hover:bg-white/30 text-primary flex px-4 items-center rounded-lg"
+              href="http://t.me/ocicatapp_bot"
+              className=" hover:bg-white/30 text-white flex px-4 items-center rounded-lg"
             >
               <span className="uppercase">MiniApp</span>
             </Link>
             <Link
-              href="/x"
-              className=" hover:bg-white/30 text-primary flex px-4 items-center rounded-lg"
+              href="#"
+              className=" hover:bg-white/30 text-white flex px-4 items-center rounded-lg"
             >
               <span className="uppercase">TokenSwap</span>
             </Link>
             <Link
-              href="/x"
-              className=" hover:bg-white/30 text-primary flex px-4 items-center rounded-lg"
+              href="#"
+              className=" hover:bg-white/30 text-white flex px-4 items-center rounded-lg"
             >
               <span className="uppercase">Bridge</span>
             </Link>
@@ -155,13 +155,13 @@ export default function Landing() {
                 </button>
               </Link>
 
-              <Link href="https://t.me/ocicatcoin">
+              <Link href="#">
                 <button className="bg-primary/80 text-background hover:bg-white/30 -rotate-12 flex border-black border-2 px-4 py-4 md:px-6 md:py-6  items-center rounded-lg buttonshadow">
                   <FaMedium className="w-6 h-6" />
                 </button>
               </Link>
 
-              <Link href="https://t.me/ocicatcoin">
+              <Link href="#">
                 <button className="bg-primary/80 text-background hover:bg-white/30 rotate-6 flex border-black border-2 px-4 py-4 md:px-4 md:py-4 items-center rounded-lg buttonshadow">
                   <Image
                     src="/move.png"
@@ -222,10 +222,12 @@ export default function Landing() {
                     See more
                   </Link>
                 </p>
-                <button className="px-10 w-fit rounded-full bg-primary/70 text-background text-sm py-1 mt-3 mx-auto flex items-center">
-                  Stake Ocicat
-                  <ArrowRight />
-                </button>
+                <Link href="#" className="text-primary">
+                  <button className="px-10 w-fit rounded-full bg-primary/70 text-background text-sm py-1 mt-3 mx-auto flex items-center">
+                    Stake Ocicat
+                    <ArrowRight />
+                  </button>
+                </Link>
               </div>
               <div className=" bg-background p-4 rounded-xl border-4 border-primary/70">
                 <header className="flex flex-row justify-around">
@@ -247,10 +249,12 @@ export default function Landing() {
                     See more
                   </Link>
                 </p>
-                <button className="px-10 w-fit rounded-full bg-primary/70 text-background text-sm py-1 mt-3 mx-auto flex items-center">
-                  Open App
-                  <ArrowRight />
-                </button>
+                <Link href="http://t.me/ocicatapp_bot" className="text-primary">
+                  <button className="px-10 w-fit rounded-full bg-primary/70 text-background text-sm py-1 mt-3 mx-auto flex items-center">
+                    Open App
+                    <ArrowRight />
+                  </button>
+                </Link>
               </div>
               <div className=" bg-background p-4 rounded-xl border-4 border-primary/70">
                 <header className="flex flex-row justify-start">
@@ -351,23 +355,34 @@ export default function Landing() {
               through our roadmap and more.
             </p>
             <div className="w-fit mx-auto md:mx-0 md:w-[30%] flex flex-row mt-5 justify-around gap-4 border-2 buttonshadow border-black bg-primary/80 py-4  md:py-6 md:px-4 px-4 rounded-lg">
-              <button className="bg-primary/80 px-4 py-4 md:px-6 md:py-6  text-background hover:bg-white/30 -rotate-6 flex border-black border-2 items-center rounded-lg buttonshadow">
-                <FaXTwitter className="w-6 h-6" />
-              </button>
-              <button className="bg-primary/80 text-background hover:bg-white/30 rotate-12 flex border-black border-2 px-4 py-4 md:px-6 md:py-6 items-center rounded-lg buttonshadow">
-                <FaTelegramPlane className="w-6 h-6" />
-              </button>
-              <button className="bg-primary/80 text-background hover:bg-white/30 -rotate-12 flex border-black border-2 px-4 py-4 md:px-6 md:py-6  items-center rounded-lg buttonshadow">
-                <FaMedium className="w-6 h-6" />
-              </button>
-              <button className="bg-primary/80 text-background hover:bg-white/30 rotate-6 flex border-black border-2 px-4 py-4 md:px-4 md:py-4 items-center rounded-lg buttonshadow">
-                <Image
-                  src="/move.png"
-                  alt="Dexscreener"
-                  width={40}
-                  height={40}
-                />
-              </button>
+              <Link href="https://twitter.com/ocicatcoin">
+                <button className="bg-primary/80 px-4 py-4 md:px-6 md:py-6  text-background hover:bg-white/30 -rotate-6 flex border-black border-2 items-center rounded-lg buttonshadow">
+                  <FaXTwitter className="w-6 h-6" />
+                </button>
+              </Link>
+
+              <Link href="https://t.me/ocicatcoin">
+                <button className="bg-primary/80 text-background hover:bg-white/30 rotate-12 flex border-black border-2 px-4 py-4 md:px-6 md:py-6 items-center rounded-lg buttonshadow">
+                  <FaTelegramPlane className="w-6 h-6" />
+                </button>
+              </Link>
+
+              <Link href="#">
+                <button className="bg-primary/80 text-background hover:bg-white/30 -rotate-12 flex border-black border-2 px-4 py-4 md:px-6 md:py-6  items-center rounded-lg buttonshadow">
+                  <FaMedium className="w-6 h-6" />
+                </button>
+              </Link>
+
+              <Link href="#">
+                <button className="bg-primary/80 text-background hover:bg-white/30 rotate-6 flex border-black border-2 px-4 py-4 md:px-4 md:py-4 items-center rounded-lg buttonshadow">
+                  <Image
+                    src="/move.png"
+                    alt="Dexscreener"
+                    width={40}
+                    height={40}
+                  />
+                </button>
+              </Link>
             </div>
           </div>
         </div>
