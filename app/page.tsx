@@ -34,7 +34,7 @@ export default function Landing() {
             alt="Ocicat Logo"
             width={40}
             height={40}
-            className="rounded-full w-20"
+            className="rounded-full w-20 md:w-10"
           />
         </div>
         <div className="md:flex gap-4 font-bebas hidden text-xl">
