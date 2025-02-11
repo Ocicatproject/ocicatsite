@@ -9,6 +9,7 @@ import { FaTelegramPlane } from "react-icons/fa";
 import { FaXTwitter, FaMedium } from "react-icons/fa6";
 import { useState } from "react";
 import { ProperBelt } from "@/components/Home/ProperBelt";
+import RegularBelt from "@/components/RegularBelt";
 export default function Landing() {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
   return (
@@ -128,7 +129,8 @@ export default function Landing() {
         </div>
       </section>
       {/* Image sections */}
-      <ProperBelt />
+      <RegularBelt/>
+      {/* <ProperBelt /> */}
       {/* What is Ocicat Coin Section */}
       <section className="relative bg-background w-full  md:h-fit">
         <div className="grid md:grid-cols-2 gap-8 items-center h-full">
@@ -360,25 +362,25 @@ export default function Landing() {
             </p>
             <div className="w-fit mx-auto md:mx-0 md:w-[30%] flex flex-row mt-5 justify-around gap-4 border-2 buttonshadow border-black bg-primary/80 py-4  md:py-6 md:px-4 px-4 rounded-lg">
               <Link href="https://twitter.com/ocicatcoin">
-                <button className="bg-primary/80 px-4 py-4 md:px-6 md:py-6  text-background hover:bg-white/30 -rotate-6 flex border-black border-2 items-center rounded-lg buttonshadow">
+                <button className="bg-primary/80 w-16 h-16 text-background hover:bg-white/30 -rotate-6 flex justify-center items-center border-black border-2  rounded-lg buttonshadow">
                   <FaXTwitter className="w-6 h-6" />
                 </button>
               </Link>
 
               <Link href="https://t.me/ocicatcoin">
-                <button className="bg-primary/80 text-background hover:bg-white/30 rotate-12 flex border-black border-2 px-4 py-4 md:px-6 md:py-6 items-center rounded-lg buttonshadow">
+                <button className="bg-primary/80 text-background hover:bg-white/30 rotate-12 flex justify-center border-black border-2 w-16 h-16  items-center rounded-lg buttonshadow">
                   <FaTelegramPlane className="w-6 h-6" />
                 </button>
               </Link>
 
               <Link href="#">
-                <button className="bg-primary/80 text-background hover:bg-white/30 -rotate-12 flex border-black border-2 px-4 py-4 md:px-6 md:py-6  items-center rounded-lg buttonshadow">
+                <button className="bg-primary/80 text-background hover:bg-white/30 -rotate-12 flex justify-center border-black border-2 w-16 h-16  items-center rounded-lg buttonshadow">
                   <FaMedium className="w-6 h-6" />
                 </button>
               </Link>
 
               <Link href="#">
-                <button className="bg-primary/80 text-background hover:bg-white/30 rotate-6 flex border-black border-2 px-4 py-4 md:px-4 md:py-4 items-center rounded-lg buttonshadow">
+                <button className="bg-primary/80 text-background hover:bg-white/30 rotate-6 flex justify-center border-black border-2 w-16 h-16 items-center rounded-lg buttonshadow">
                   <Image
                     src="/move.png"
                     alt="Dexscreener"
