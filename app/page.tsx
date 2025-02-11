@@ -337,10 +337,11 @@ export default function Landing() {
           />
         </div>
       </section>
-      {/* FAQ */}
-      <FAQ />
       {/* Image sections */}
       <ProperBelt />
+      {/* FAQ */}
+      <FAQ />
+
       {/* Footer */}
       <footer className="bg-background pt-20 relative">
         <div className="container px-4">
