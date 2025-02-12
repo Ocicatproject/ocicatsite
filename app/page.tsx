@@ -31,7 +31,7 @@ export default function Landing() {
             />
           )}
           <Image
-            src={`ocicatlogo.png`}
+            src={`/ocicatlogo.png`}
             alt="Ocicat Logo"
             width={40}
             height={40}
