@@ -54,7 +54,7 @@ const logos = [
 
 export const ProperBelt = () => {
   return (
-    <div className="relative flex w-full py-6 md:py-8 overflow-hidden bg-primary/80">
+    <div className="flex w-full py-6 md:py-8 overflow-hidden bg-primary/80 my-10 md:mt-60">
       {/* First set of logos */}
       <div className="animate-scroll flex min-w-full items-center justify-around gap-4 md:gap-12">
         {logos.map((logo, index) => (
