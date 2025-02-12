@@ -30,12 +30,12 @@ export default function Landing() {
               onClick={() => setShowMobileMenu(!showMobileMenu)}
             />
           )}
-          <Image
-            src={`ocicatlogo.png`}
+         <Image
+            src={"/ocicatlogo.png"}
             alt="Ocicat Logo"
             width={40}
             height={40}
-            className="rounded-full w-20 md:w-10"
+            className="rounded-full md:w-20 w-16"
           />
         </div>
         <div className="md:flex gap-4 font-bebas hidden text-xl">
@@ -52,14 +52,14 @@ export default function Landing() {
             <span className="uppercase">Documentation</span>
           </Link>
           <Link
-            href="/x"
+            href="https://pancakeswap.finance/?outputCurrency=0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56&chainId=56&inputCurrency=0x37Fe635D1e25B2F7276C1B9dBBcc7b087f80C050"
             className="bg-primary/80 text-foreground hover:bg-white/30d flex border-black border-2 px-4 py-3 items-center rounded-lg buttonshadow"
           >
             <span className="uppercase">Buy $OCICAT</span>
           </Link>
         </div>
         <Link
-          href="/x"
+          href="https://pancakeswap.finance/?outputCurrency=0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56&chainId=56&inputCurrency=0x37Fe635D1e25B2F7276C1B9dBBcc7b087f80C050"
           className="bg-primary/80 hover:bg-white/30 text-foreground  flex md:hidden border-black border-2 px-4 py-1 items-center rounded-lg buttonshadow"
         >
           <span className="uppercase">Buy $OCICAT</span>
@@ -67,7 +67,7 @@ export default function Landing() {
         {showMobileMenu && (
           <div className="absolute top-16 left-0 flex flex-col gap-4 font-bebas bg-background p-4 rounded-lg shadow-lg md:hidden">
             <Link
-              href="#"
+              href="https://pools.ocicat.club/"
               className=" hover:bg-white/30 text-foreground flex px-4  items-center"
             >
               <span className="uppercase">Staking/DAO</span>
@@ -85,13 +85,13 @@ export default function Landing() {
               <span className="uppercase">MiniApp</span>
             </Link>
             <Link
-              href="#"
+              href="https://swap.ocicat.club/"
               className=" hover:bg-white/30 text-foreground flex px-4 items-center rounded-lg"
             >
               <span className="uppercase">TokenSwap</span>
             </Link>
             <Link
-              href="#"
+              href="https://bridge.ocicat.club/"
               className=" hover:bg-white/30 text-foreground flex px-4 items-center rounded-lg"
             >
               <span className="uppercase">Bridge</span>
@@ -222,7 +222,7 @@ export default function Landing() {
                   Stake Ocicat token to earn from daily pool emission.The pool
                   has 40/60 percentage reward share with token and liquidity.
                   Alpha pool has double delegation power.
-                  <Link href="#" className="text-primary">
+                  <Link href="https://pools.ocicat.club/" className="text-primary">
                     See more
                   </Link>
                 </p>
@@ -246,10 +246,10 @@ export default function Landing() {
                   </h3>
                 </header>
                 <p className="font-montserrat text-sm pt-4">
-                  Stake Ocicat token to earn from daily pool emission.The pool
-                  has 40/60 percentage reward share with token and liquidity.
-                  Alpha pool has double delegation power.
-                  <Link href="#" className="text-primary">
+                  With Ocicat telegram App, we will open the door to 1m users to the ecosystem .
+                  The buzz around telegram App will skyroket Ocicat
+                   token. The App has games and community engagementq features for all type crypto users .
+                  <Link href="https://t.me/ocicatapp_bot" className="text-primary">
                     See more
                   </Link>
                 </p>
@@ -273,10 +273,9 @@ export default function Landing() {
                   </h3>
                 </header>
                 <p className="font-montserrat text-sm pt-4">
-                  Stake Ocicat token to earn from daily pool emission.The pool
-                  has 40/60 percentage reward share with token and liquidity.
-                  Alpha pool has double delegation power.
-                  <Link href="#" className="text-primary">
+                  Ocicat NFT is the collection of 10,000 ARTS that serve as pass
+                   to the ecosystem.Mint our NFT are increase your points .
+                  <Link href="https://nft.ocicat.club/" className="text-primary">
                     See more
                   </Link>
                 </p>
@@ -298,9 +297,8 @@ export default function Landing() {
                   </h3>
                 </header>
                 <p className="font-montserrat text-sm pt-4">
-                  Stake Ocicat token to earn from daily pool emission.The pool
-                  has 40/60 percentage reward share with token and liquidity.
-                  Alpha pool has double delegation power.
+                 As the ecosytem grows we will expand to other network
+                  without creating additional tokens. Ocicat will be bridged to other blockchain layers.
                   <Link href="#" className="text-primary">
                     See more
                   </Link>
@@ -374,7 +372,7 @@ export default function Landing() {
                 </button>
               </Link>
 
-              <Link href="#">
+              <Link href="https://medium.com/@ocicatcoin">
                 <button className="bg-primary/80 text-background hover:bg-white/30 -rotate-12 flex justify-center border-black border-2 w-16 h-16  items-center rounded-lg buttonshadow">
                   <FaMedium className="w-6 h-6" />
                 </button>

@@ -13,7 +13,7 @@ const logos = [
     width: 32,
     height: 32,
     path: "/coingecko.png",
-    to: "https://poocoin.app/tokens/0x37Fe635D1e25B2F7276C1B9dBBcc7b087f80C050",
+    to: "https://www.coingecko.com/en/coins/ocicat-token",
   },
   {
     name: "PooCoin",
@@ -54,7 +54,7 @@ const logos = [
 
 export const ProperBelt = () => {
   return (
-    <div className="relative flex w-full py-6 md:py-8 overflow-hidden bg-primary/80">
+    <div className="flex w-full py-6 md:py-8 overflow-hidden bg-primary/0 my-10 md:mt-60">
       {/* First set of logos */}
       <div className="animate-scroll flex min-w-full items-center justify-around gap-4 md:gap-12">
         {logos.map((logo, index) => (
