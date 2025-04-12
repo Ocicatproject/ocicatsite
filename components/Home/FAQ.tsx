@@ -18,7 +18,7 @@ const FAQ = () => {
     {
       question: "Why is Ocicat different ?",
       answer:
-        "Ocicat project is not pump and dump. Its been been 2yrs and still growing stronger.",
+        "Ocicat project is a long-term community project. Its been been 2yrs and still growing stronger.",
     },
     {
       question: " Why the staking ,telegram App and all the new updates?",

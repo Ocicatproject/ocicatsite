@@ -40,26 +40,26 @@ export default function Landing() {
         </div>
         <div className="md:flex gap-4 font-bebas hidden text-xl">
           <Link
-            href="http://t.me/ocicatapp_bot"
+            href="http://www.dao.ocicat.club"
             className="bg-primary/80 hover:bg-white/30 text-foreground  flex border-black border-2 px-4 py-3  items-center rounded-lg buttonshadow"
           >
-            <span className="uppercase">Open APP</span>
+            <span className="uppercase">Dao Staking</span>
           </Link>
           <Link
-            href="https://drive.google.com/file/d/1-QtYExGOntx3UwZvtvpT7TWcbBfKJiSM/view?usp=sharing"
+            href="#"
             className="bg-primary/80 hover:bg-white/30 text-foreground flex border-black border-2 px-4 py-3 items-center rounded-lg buttonshadow"
           >
             <span className="uppercase">Documentation</span>
           </Link>
           <Link
-            href="https://pancakeswap.finance/?outputCurrency=0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56&chainId=56&inputCurrency=0x37Fe635D1e25B2F7276C1B9dBBcc7b087f80C050"
+            href="#"
             className="bg-primary/80 text-foreground hover:bg-white/30d flex border-black border-2 px-4 py-3 items-center rounded-lg buttonshadow"
           >
             <span className="uppercase">Buy $OCICAT</span>
           </Link>
         </div>
         <Link
-          href="https://pancakeswap.finance/?outputCurrency=0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56&chainId=56&inputCurrency=0x37Fe635D1e25B2F7276C1B9dBBcc7b087f80C050"
+          href="#"
           className="bg-primary/80 hover:bg-white/30 text-foreground  flex md:hidden border-black border-2 px-4 py-1 items-center rounded-lg buttonshadow"
         >
           <span className="uppercase">Buy $OCICAT</span>
@@ -67,22 +67,22 @@ export default function Landing() {
         {showMobileMenu && (
           <div className="absolute top-16 left-0 flex flex-col gap-4 font-bebas bg-background p-4 rounded-lg shadow-lg md:hidden">
             <Link
-              href="https://pools.ocicat.club/"
+              href="http://www.dao.ocicat.club"
               className=" hover:bg-white/30 text-foreground flex px-4  items-center"
             >
               <span className="uppercase">Staking/DAO</span>
             </Link>
-            <Link
-              href="https://drive.google.com/file/d/1-QtYExGOntx3UwZvtvpT7TWcbBfKJiSM/view?usp=sharing"
+            {/* <Link
+              href="https://docs.google.com/document/d/1c0ejUIdhtI8oISpGa6qt3eUD6z-bLW7OyqfUhD1Puz4/edit?usp=sharing"
               className=" hover:bg-white/30 text-foreground flex px-4 items-center rounded-lg"
             >
               <span className="uppercase">Documentation</span>
-            </Link>
+            </Link> */}
             <Link
-              href="http://t.me/ocicatapp_bot"
+              href="#"
               className=" hover:bg-white/30 text-foreground flex px-4 items-center rounded-lg"
             >
-              <span className="uppercase">MiniApp</span>
+              <span className="uppercase">miniApp</span>
             </Link>
             <Link
               href="https://swap.ocicat.club/"
@@ -165,7 +165,7 @@ export default function Landing() {
                 </button>
               </Link>
 
-              <Link href="https://dexscreener.com/bsc/0x6dbda0963f03ed29458ebe9ba6ed9f8948125b9d">
+              <Link href="#">
                 <button className="bg-primary/80 text-background hover:bg-white/30 rotate-6 flex justify-center border-black border-2 w-16 h-16 items-center rounded-lg buttonshadow">
                   <Image
                     src="/move.png"
@@ -222,11 +222,11 @@ export default function Landing() {
                   Stake Ocicat token to earn from daily pool emission.The pool
                   has 40/60 percentage reward share with token and liquidity.
                   Alpha pool has double delegation power.
-                  <Link href="https://pools.ocicat.club/" className="text-primary">
+                  <Link href="#" className="text-primary">
                     See more
                   </Link>
                 </p>
-                <Link href="#" className="text-primary">
+                <Link href="https://dao.ocicat.club/" className="text-primary">
                   <button className="px-10 w-fit rounded-full bg-primary/70 text-foreground text-sm py-1 mt-3 mx-auto flex items-center">
                     Stake Ocicat
                     <ArrowRight />
@@ -246,14 +246,14 @@ export default function Landing() {
                   </h3>
                 </header>
                 <p className="font-montserrat text-sm pt-4">
-                  With Ocicat telegram App, we will open the door to 1m users to the ecosystem .
+                  With Ocicat telegram App, we will open the door to many users to the ecosystem .
                   The buzz around telegram App will skyroket Ocicat
-                   token. The App has games and community engagementq features for all type crypto users .
-                  <Link href="https://t.me/ocicatapp_bot" className="text-primary">
+                   token. The App has games and community engagementq features for all type of crypto users .
+                  <Link href="#" className="text-primary">
                     See more
                   </Link>
                 </p>
-                <Link href="http://t.me/ocicatapp_bot" className="text-primary">
+                <Link href="#" className="text-primary">
                   <button className="px-10 w-fit rounded-full bg-primary/70 text-foreground text-sm py-1 mt-3 mx-auto flex items-center">
                     Open App
                     <ArrowRight />
@@ -274,15 +274,17 @@ export default function Landing() {
                 </header>
                 <p className="font-montserrat text-sm pt-4">
                   Ocicat NFT is the collection of 10,000 ARTS that serve as pass
-                   to the ecosystem.Mint our NFT are increase your points .
-                  <Link href="https://nft.ocicat.club/" className="text-primary">
+                   to the ecosystem.Mint our NFT and increase your points .
+                  <Link href="#" className="text-primary">
                     See more
                   </Link>
                 </p>
+                <Link href="https://nft.ocicat.club/" className="text-primary">
                 <button className="px-10 w-fit rounded-full bg-primary/70 text-foreground text-sm py-1 mt-3 mx-auto flex items-center">
-                  Mint NFT
+                  Ocicat NFT
                   <ArrowRight />
                 </button>
+                </Link>
               </div>
               <div className=" bg-background p-4 rounded-2xl border-4 border-primary/70">
                 <header className="flex flex-row justify-start">
@@ -303,10 +305,12 @@ export default function Landing() {
                     See more
                   </Link>
                 </p>
+                <Link href="https://bridge.ocicat.club/" className="text-primary">
                 <button className="px-10 w-fit rounded-full bg-primary/70 text-foreground text-sm py-1 mt-3 mx-auto flex items-center">
                   Bridge Ocicat
                   <ArrowRight />
                 </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -378,7 +382,7 @@ export default function Landing() {
                 </button>
               </Link>
 
-              <Link href="https://dexscreener.com/bsc/0x6dbda0963f03ed29458ebe9ba6ed9f8948125b9d">
+              <Link href="#">
                 <button className="bg-primary/80 text-background hover:bg-white/30 rotate-6 flex justify-center border-black border-2 w-16 h-16 items-center rounded-lg buttonshadow">
                   <Image
                     src="/move.png"

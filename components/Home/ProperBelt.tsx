@@ -6,7 +6,7 @@ const logos = [
     width: 120,
     height: 32,
     path: "/dexview.png",
-    to: "https://www.dexview.com/bsc/0x37Fe635D1e25B2F7276C1B9dBBcc7b087f80C050",
+    to: "#",
   },
   {
     name: "Coingecko",
@@ -20,14 +20,14 @@ const logos = [
     width: 120,
     height: 32,
     path: "/poocoin.jpeg",
-    to: "https://poocoin.app/tokens/0x37Fe635D1e25B2F7276C1B9dBBcc7b087f80C050",
+    to: "https://poocoin.app/tokens/0xe53d384cf33294c1882227ae4f90d64cf2a5db70",
   },
   {
     name: "PancakeSwap",
     width: 140,
     height: 32,
     path: "/pancakeswap.png",
-    to: "https://pancakeswap.finance/swap?outputCurrency=0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56&chainId=56&inputCurrency=0x37Fe635D1e25B2F7276C1B9dBBcc7b087f80C050",
+    to: "#",
   },
   {
     name: "Platform5",
@@ -41,14 +41,14 @@ const logos = [
     width: 120,
     height: 32,
     path: "/dextools.svg",
-    to: "https://www.dextools.io/app/en/bnb/pair-explorer/0xb370ea0cee1eee0e2988d062fd3391b2cf2759a1",
+    to: "#",
   },
   {
     name: "Binance",
     width: 140,
     height: 32,
     path: "/binance.png",
-    to: "https://bscscan.com/token/0x37fe635d1e25b2f7276c1b9dbbcc7b087f80c050",
+    to: "https://bscscan.com/token/0xe53d384cf33294c1882227ae4f90d64cf2a5db70",
   },
 ];
 
