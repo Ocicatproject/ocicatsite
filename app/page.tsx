@@ -30,8 +30,8 @@ export default function Landing() {
               onClick={() => setShowMobileMenu(!showMobileMenu)}
             />
           )}
-         <Image
-            src={"/ocicatlogo.png"}
+          <Image
+            src={`/ocicatlogo.png`}
             alt="Ocicat Logo"
             width={40}
             height={40}
