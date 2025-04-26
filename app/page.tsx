@@ -165,7 +165,7 @@ export default function Landing() {
                 </button>
               </Link>
 
-              <Link href="#">
+              <Link href="https://dexscreener.com/bsc/0x1df65d3a75aecd000a9c17c97e99993af01dbcd1">
                 <button className="bg-primary/80 text-background hover:bg-white/30 rotate-6 flex justify-center border-black border-2 w-16 h-16 items-center rounded-lg buttonshadow">
                   <Image
                     src="/move.png"
@@ -376,7 +376,7 @@ export default function Landing() {
                 </button>
               </Link>
 
-              <Link href="#">
+              <Link href="https://dexscreener.com/bsc/0x1df65d3a75aecd000a9c17c97e99993af01dbcd1">
                 <button className="bg-primary/80 text-background hover:bg-white/30 rotate-6 flex justify-center border-black border-2 w-16 h-16 items-center rounded-lg buttonshadow">
                   <Image
                     src="/move.png"
