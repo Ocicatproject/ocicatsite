@@ -48,7 +48,7 @@ const logos = [
     width: 140,
     height: 32,
     path: "/binance.png",
-    to: "https://bscscan.com/token/0x37fe635d1e25b2f7276c1b9dbbcc7b087f80c050",
+    to: "https://bscscan.com/token/0xe53d384cf33294c1882227ae4f90d64cf2a5db70",
   },
 ];
 

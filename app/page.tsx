@@ -40,10 +40,10 @@ export default function Landing() {
         </div>
         <div className="md:flex gap-4 font-bebas hidden text-xl">
           <Link
-            href="http://t.me/ocicatapp_bot"
+            href="http://www.dao.ocicat.club"
             className="bg-primary/80 hover:bg-white/30 text-foreground  flex border-black border-2 px-4 py-3  items-center rounded-lg buttonshadow"
           >
-            <span className="uppercase">Open APP</span>
+            <span className="uppercase">Dao Staking</span>
           </Link>
           <Link
             href="https://docs.google.com/document/d/1c0ejUIdhtI8oISpGa6qt3eUD6z-bLW7OyqfUhD1Puz4/edit?usp=sharing"
@@ -77,12 +77,12 @@ export default function Landing() {
               className=" hover:bg-white/30 text-foreground flex px-4 items-center rounded-lg"
             >
               <span className="uppercase">Documentation</span>
-            </Link>
+            </Link> */}
             <Link
-              href="http://t.me/ocicatapp_bot"
+              href="#"
               className=" hover:bg-white/30 text-foreground flex px-4 items-center rounded-lg"
             >
-              <span className="uppercase">MiniApp</span>
+              <span className="uppercase">miniApp</span>
             </Link>
             <Link
               href="https://swap.ocicat.club"
@@ -91,7 +91,7 @@ export default function Landing() {
               <span className="uppercase">Swap</span>
             </Link>
             <Link
-              href="#"
+              href="https://bridge.ocicat.club/"
               className=" hover:bg-white/30 text-foreground flex px-4 items-center rounded-lg"
             >
               <span className="uppercase">Bridge</span>
@@ -165,7 +165,7 @@ export default function Landing() {
                 </button>
               </Link>
 
-              <Link href="https://dexscreener.com/bsc/0x6dbda0963f03ed29458ebe9ba6ed9f8948125b9d">
+              <Link href="#">
                 <button className="bg-primary/80 text-background hover:bg-white/30 rotate-6 flex justify-center border-black border-2 w-16 h-16 items-center rounded-lg buttonshadow">
                   <Image
                     src="/move.png"
@@ -224,7 +224,7 @@ export default function Landing() {
                   Alpha pool has double delegation power.
                  
                 </p>
-                <Link href="#" className="text-primary">
+                <Link href="https://dao.ocicat.club/" className="text-primary">
                   <button className="px-10 w-fit rounded-full bg-primary/70 text-foreground text-sm py-1 mt-3 mx-auto flex items-center">
                     Stake Ocicat
                     <ArrowRight />
@@ -249,7 +249,7 @@ export default function Landing() {
                   Alpha pool has double delegation power.
                  
                 </p>
-                <Link href="http://t.me/ocicatapp_bot" className="text-primary">
+                <Link href="#" className="text-primary">
                   <button className="px-10 w-fit rounded-full bg-primary/70 text-foreground text-sm py-1 mt-3 mx-auto flex items-center">
                     Open App
                     <ArrowRight />
@@ -274,10 +274,12 @@ export default function Landing() {
                   Alpha pool has double delegation power.
                  
                 </p>
+                <Link href="https://nft.ocicat.club/" className="text-primary">
                 <button className="px-10 w-fit rounded-full bg-primary/70 text-foreground text-sm py-1 mt-3 mx-auto flex items-center">
-                  Mint NFT
+                  Ocicat NFT
                   <ArrowRight />
                 </button>
+                </Link>
               </div>
               <div className=" bg-background p-4 rounded-2xl border-4 border-primary/70">
                 <header className="flex flex-row justify-start">
@@ -297,10 +299,12 @@ export default function Landing() {
                   Alpha pool has double delegation power.
                  
                 </p>
+                <Link href="https://bridge.ocicat.club/" className="text-primary">
                 <button className="px-10 w-fit rounded-full bg-primary/70 text-foreground text-sm py-1 mt-3 mx-auto flex items-center">
                   Bridge Ocicat
                   <ArrowRight />
                 </button>
+                </Link>
               </div>
             </div>
           </div>
@@ -372,7 +376,7 @@ export default function Landing() {
                 </button>
               </Link>
 
-              <Link href="https://dexscreener.com/bsc/0x6dbda0963f03ed29458ebe9ba6ed9f8948125b9d">
+              <Link href="#">
                 <button className="bg-primary/80 text-background hover:bg-white/30 rotate-6 flex justify-center border-black border-2 w-16 h-16 items-center rounded-lg buttonshadow">
                   <Image
                     src="/move.png"

@@ -103,7 +103,7 @@ export default function OcicatLanding() {
               </ul>
               <div className="bg-foreground p-4 rounded-lg flex flex-row justify-between items-center gap-2 border-2 border-background buttonshadow">
                 <code className="w-[95%] inline overflow-hidden  bg-foreground text-background text-xl">
-                  0x37fe635d1e25b2f7276c1b9dbbcc7b087f80c050
+                0xE53D384Cf33294C1882227ae4f90D64cF2a5dB70
                 </code>
                 <Button variant="ghost" size="icon" onClick={copyAddress}>
                   <Copy className="h-4 w-4 text-background" />

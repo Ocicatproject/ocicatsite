@@ -16,14 +16,14 @@ const FAQ = () => {
 
   const faqData: FAQItem[] = [
     {
-      question: "What is Dao Staking?",
+      question: "Why is Ocicat different ?",
       answer:
-        "Dao Staking ) is a program that rewards participants with OCICAT tokens for actively staking and participating in the ecosystem. It also allows users to accrue more voting power for Dao voting.",
+        "Ocicat project is a long-term community project. Its been been 2yrs and still growing stronger.",
     },
     {
-      question: " How do I claim my  rewards?",
+      question: " Why the staking ,telegram App and all the new updates?",
       answer:
-        "To claim your rewards, connect your wallet to the platform and navigate to the rewards section. Follow the prompt to claim your tokens or restake.",
+        "These features are rewards for long-term hold. They are the things that glue the community together.",
     },
     {
       question: "What benefit is included in my stake?",
@@ -36,14 +36,19 @@ const FAQ = () => {
         "Yes, you can stake multiple tokens. However, the rewards are calculated based on the total amount of OCICAT staked and your voting power collected.",
     },
     {
-      question: "What happens if I unstake my tokens?",
+      question: "Are we expecting more from the community?",
       answer:
-        "If you unstake your tokens, you will stop earning rewards and loose your points collected. Your voting power will also decrease, and you may lose eligibility for future rewards.",
+        "Yes . Ocicat Dao development is almost complete. We will bring up more development ideas for community to decide.",
     },
     {
-      question: "Is there penalty for unstaking?",
+      question: "Most meme coin projects have dumped seriously in that last few years, What's Ocicat secret?",
       answer:
-        "No. Unstaking has cool-down period of 21 days. After the period you can now withdraw without penalty. Note that all your points are lost.",
+        "Ocicat team are community of believers who suscribe to long-term dream. The community members too are holders who believe that Ocicat is undervalued."
+    },
+    {
+      question: "What is the plan for Ocicat  NFT?",
+      answer:
+        "Ocicat NFT usecase will be revealed immediately after the mini App and Dao launch . We are just getting started ",
     },
   ];
 
