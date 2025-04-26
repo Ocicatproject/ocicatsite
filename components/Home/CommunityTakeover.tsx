@@ -5,7 +5,7 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Copy, Pause, Play } from "lucide-react";
-
+import Link from "next/link";
 export default function OcicatLanding() {
   const [isPlaying, setIsPlaying] = useState(false);
   const audioRef = useRef<HTMLAudioElement>(null);
@@ -61,12 +61,24 @@ export default function OcicatLanding() {
               dynamic network of dreamers worldwide.
             </p>
             <div className="grid grid-cols-2 gap-4">
-              <Button className="py-6 text-foreground bg-white/30   font-bold text-2xl border-2 border-black buttonshadow">
-                BUY $Ocicat
-              </Button>
-              <Button className="py-6 text-black bg-[#f0343d] hover:bg-white/30 border-2 border-black buttonshadow  font-bold text-xl">
-                VIEW CHART
-              </Button>
+              <Link
+                href="https://pancakeswap.finance/swap?outputCurrency=0xE53D384Cf33294C1882227ae4f90D64cF2a5dB70"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button className="py-6 text-foreground bg-white/30 font-bold text-2xl border-2 border-black buttonshadow">
+                  BUY $Ocicat
+                </Button>
+              </Link>
+              <Link
+                href="https://dexscreener.com/bsc/0x1df65d3a75aecd000a9c17c97e99993af01dbcd1"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button className="py-6 text-black bg-[#f0343d] hover:bg-white/30 border-2 border-black buttonshadow font-bold text-xl">
+                  VIEW CHART
+                </Button>
+              </Link>
             </div>
           </div>
         </div>

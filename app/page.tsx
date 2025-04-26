@@ -46,20 +46,20 @@ export default function Landing() {
             <span className="uppercase">Open APP</span>
           </Link>
           <Link
-            href="https://drive.google.com/file/d/1-QtYExGOntx3UwZvtvpT7TWcbBfKJiSM/view?usp=sharing"
+            href="https://docs.google.com/document/d/1c0ejUIdhtI8oISpGa6qt3eUD6z-bLW7OyqfUhD1Puz4/edit?usp=sharing"
             className="bg-primary/80 hover:bg-white/30 text-foreground flex border-black border-2 px-4 py-3 items-center rounded-lg buttonshadow"
           >
             <span className="uppercase">Documentation</span>
           </Link>
           <Link
-            href="/x"
+            href="https://pancakeswap.finance/swap?outputCurrency=0xE53D384Cf33294C1882227ae4f90D64cF2a5dB70"
             className="bg-primary/80 text-foreground hover:bg-white/30d flex border-black border-2 px-4 py-3 items-center rounded-lg buttonshadow"
           >
             <span className="uppercase">Buy $OCICAT</span>
           </Link>
         </div>
         <Link
-          href="/x"
+          href="https://docs.google.com/document/d/1c0ejUIdhtI8oISpGa6qt3eUD6z-bLW7OyqfUhD1Puz4/edit?usp=sharing"
           className="bg-primary/80 hover:bg-white/30 text-foreground  flex md:hidden border-black border-2 px-4 py-1 items-center rounded-lg buttonshadow"
         >
           <span className="uppercase">Buy $OCICAT</span>
@@ -67,13 +67,13 @@ export default function Landing() {
         {showMobileMenu && (
           <div className="absolute top-16 left-0 flex flex-col gap-4 font-bebas bg-background p-4 rounded-lg shadow-lg md:hidden">
             <Link
-              href="#"
+              href="https://dao.ocicat.club"
               className=" hover:bg-white/30 text-foreground flex px-4  items-center"
             >
               <span className="uppercase">Staking/DAO</span>
             </Link>
             <Link
-              href="https://drive.google.com/file/d/1-QtYExGOntx3UwZvtvpT7TWcbBfKJiSM/view?usp=sharing"
+              href="https://docs.google.com/document/d/1c0ejUIdhtI8oISpGa6qt3eUD6z-bLW7OyqfUhD1Puz4/edit?usp=sharing"
               className=" hover:bg-white/30 text-foreground flex px-4 items-center rounded-lg"
             >
               <span className="uppercase">Documentation</span>
@@ -85,10 +85,10 @@ export default function Landing() {
               <span className="uppercase">MiniApp</span>
             </Link>
             <Link
-              href="#"
+              href="https://swap.ocicat.club"
               className=" hover:bg-white/30 text-foreground flex px-4 items-center rounded-lg"
             >
-              <span className="uppercase">TokenSwap</span>
+              <span className="uppercase">Swap</span>
             </Link>
             <Link
               href="#"
@@ -159,7 +159,7 @@ export default function Landing() {
                 </button>
               </Link>
 
-              <Link href="#">
+              <Link href="https://medium.com/@ocicatcoin">
                 <button className="bg-primary/80 text-background hover:bg-white/30 -rotate-12 flex justify-center border-black border-2 w-16 h-16  items-center rounded-lg buttonshadow">
                   <FaMedium className="w-6 h-6" />
                 </button>
@@ -222,9 +222,7 @@ export default function Landing() {
                   Stake Ocicat token to earn from daily pool emission.The pool
                   has 40/60 percentage reward share with token and liquidity.
                   Alpha pool has double delegation power.
-                  <Link href="#" className="text-primary">
-                    See more
-                  </Link>
+                 
                 </p>
                 <Link href="#" className="text-primary">
                   <button className="px-10 w-fit rounded-full bg-primary/70 text-foreground text-sm py-1 mt-3 mx-auto flex items-center">
@@ -249,9 +247,7 @@ export default function Landing() {
                   Stake Ocicat token to earn from daily pool emission.The pool
                   has 40/60 percentage reward share with token and liquidity.
                   Alpha pool has double delegation power.
-                  <Link href="#" className="text-primary">
-                    See more
-                  </Link>
+                 
                 </p>
                 <Link href="http://t.me/ocicatapp_bot" className="text-primary">
                   <button className="px-10 w-fit rounded-full bg-primary/70 text-foreground text-sm py-1 mt-3 mx-auto flex items-center">
@@ -276,9 +272,7 @@ export default function Landing() {
                   Stake Ocicat token to earn from daily pool emission.The pool
                   has 40/60 percentage reward share with token and liquidity.
                   Alpha pool has double delegation power.
-                  <Link href="#" className="text-primary">
-                    See more
-                  </Link>
+                 
                 </p>
                 <button className="px-10 w-fit rounded-full bg-primary/70 text-foreground text-sm py-1 mt-3 mx-auto flex items-center">
                   Mint NFT
@@ -301,9 +295,7 @@ export default function Landing() {
                   Stake Ocicat token to earn from daily pool emission.The pool
                   has 40/60 percentage reward share with token and liquidity.
                   Alpha pool has double delegation power.
-                  <Link href="#" className="text-primary">
-                    See more
-                  </Link>
+                 
                 </p>
                 <button className="px-10 w-fit rounded-full bg-primary/70 text-foreground text-sm py-1 mt-3 mx-auto flex items-center">
                   Bridge Ocicat
@@ -374,7 +366,7 @@ export default function Landing() {
                 </button>
               </Link>
 
-              <Link href="#">
+              <Link href="https://medium.com/@ocicatcoin">
                 <button className="bg-primary/80 text-background hover:bg-white/30 -rotate-12 flex justify-center border-black border-2 w-16 h-16  items-center rounded-lg buttonshadow">
                   <FaMedium className="w-6 h-6" />
                 </button>
