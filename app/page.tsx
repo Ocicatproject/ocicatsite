@@ -46,6 +46,12 @@ export default function Landing() {
             <span className="uppercase">Dao Staking</span>
           </Link>
           <Link
+            href="https://swap.ocicat.club"
+            className="bg-primary/80 hover:bg-white/30 text-foreground  flex border-black border-2 px-4 py-3  items-center rounded-lg buttonshadow"
+          >
+            <span className="uppercase">Swap</span>
+          </Link>
+          <Link
             href="https://docs.google.com/document/d/1c0ejUIdhtI8oISpGa6qt3eUD6z-bLW7OyqfUhD1Puz4/edit?usp=sharing"
             className="bg-primary/80 hover:bg-white/30 text-foreground flex border-black border-2 px-4 py-3 items-center rounded-lg buttonshadow"
           >
@@ -67,7 +73,7 @@ export default function Landing() {
         {showMobileMenu && (
           <div className="absolute top-16 left-0 flex flex-col gap-4 font-bebas bg-background p-4 rounded-lg shadow-lg md:hidden">
             <Link
-              href="https://dao.ocicat.club"
+              href="https://www.dao.ocicat.club"
               className=" hover:bg-white/30 text-foreground flex px-4  items-center"
             >
               <span className="uppercase">Staking/DAO</span>
@@ -77,12 +83,12 @@ export default function Landing() {
               className=" hover:bg-white/30 text-foreground flex px-4 items-center rounded-lg"
             >
               <span className="uppercase">Documentation</span>
-            </Link> */}
+            </Link>
             <Link
               href="#"
               className=" hover:bg-white/30 text-foreground flex px-4 items-center rounded-lg"
             >
-              <span className="uppercase">miniApp</span>
+              <span className="uppercase">MiniApp</span>
             </Link>
             <Link
               href="https://swap.ocicat.club"

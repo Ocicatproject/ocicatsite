@@ -22,9 +22,7 @@ export default function OcicatLanding() {
   };
 
   const copyAddress = () => {
-    navigator.clipboard.writeText(
-      "0xc58fc8b41fccbd05....6349ae41dc49878af3a20b0d86"
-    );
+    navigator.clipboard.writeText("0xE53D384Cf33294C1882227ae4f90D64cF2a5dB70");
   };
 
   return (
@@ -65,6 +63,7 @@ export default function OcicatLanding() {
                 href="https://pancakeswap.finance/swap?outputCurrency=0xE53D384Cf33294C1882227ae4f90D64cF2a5dB70"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="flex items-start justify-center"
               >
                 <Button className="py-6 text-foreground bg-white/30 font-bold text-2xl border-2 border-black buttonshadow">
                   BUY $Ocicat
@@ -74,6 +73,7 @@ export default function OcicatLanding() {
                 href="https://dexscreener.com/bsc/0x1df65d3a75aecd000a9c17c97e99993af01dbcd1"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="flex items-start justify-center"
               >
                 <Button className="py-6 text-black bg-[#f0343d] hover:bg-white/30 border-2 border-black buttonshadow font-bold text-xl">
                   VIEW CHART
@@ -103,7 +103,7 @@ export default function OcicatLanding() {
               </ul>
               <div className="bg-foreground p-4 rounded-lg flex flex-row justify-between items-center gap-2 border-2 border-background buttonshadow">
                 <code className="w-[95%] inline overflow-hidden  bg-foreground text-background text-xl">
-                0xE53D384Cf33294C1882227ae4f90D64cF2a5dB70
+                  0xE53D384Cf33294C1882227ae4f90D64cF2a5dB70
                 </code>
                 <Button variant="ghost" size="icon" onClick={copyAddress}>
                   <Copy className="h-4 w-4 text-background" />
