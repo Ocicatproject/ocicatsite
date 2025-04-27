@@ -393,6 +393,9 @@ export default function Landing() {
                 </button>
               </Link>
             </div>
+            <div className="text-white text-lg">
+              For partnership admin@ocicat.club
+</div>
           </div>
         </div>
       </footer>
