@@ -65,7 +65,7 @@ export default function Landing() {
           </Link>
         </div>
         <Link
-          href="https://docs.google.com/document/d/1c0ejUIdhtI8oISpGa6qt3eUD6z-bLW7OyqfUhD1Puz4/edit?usp=sharing"
+          href="https://pancakeswap.finance/swap?outputCurrency=0xE53D384Cf33294C1882227ae4f90D64cF2a5dB70"
           className="bg-primary/80 hover:bg-white/30 text-foreground  flex md:hidden border-black border-2 px-4 py-1 items-center rounded-lg buttonshadow"
         >
           <span className="uppercase">Buy $OCICAT</span>
@@ -79,7 +79,7 @@ export default function Landing() {
               <span className="uppercase">Staking/DAO</span>
             </Link>
             <Link
-              href="https://pancakeswap.finance/swap?outputCurrency=0xE53D384Cf33294C1882227ae4f90D64cF2a5dB70"
+              href="https://docs.google.com/document/d/1c0ejUIdhtI8oISpGa6qt3eUD6z-bLW7OyqfUhD1Puz4/edit?usp=sharing"
               className=" hover:bg-white/30 text-foreground flex px-4 items-center rounded-lg"
             >
               <span className="uppercase">Documentation</span>
