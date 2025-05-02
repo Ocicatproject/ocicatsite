@@ -230,7 +230,7 @@ export default function Landing() {
                   Alpha pool has double delegation power.
                  
                 </p>
-                <Link href="https://dao.ocicat.club/" className="text-primary">
+                <Link href="https://www.dao.ocicat.club/" className="text-primary">
                   <button className="px-10 w-fit rounded-full bg-primary/70 text-foreground text-sm py-1 mt-3 mx-auto flex items-center">
                     Stake Ocicat
                     <ArrowRight />
