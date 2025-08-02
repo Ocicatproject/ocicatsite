@@ -225,10 +225,7 @@ export default function Landing() {
                   </h3>
                 </header>
                 <p className="font-montserrat text-sm pt-4">
-                  Stake Ocicat token to earn from daily pool emission.The pool
-                  has 40/60 percentage reward share with token and liquidity.
-                  Alpha pool has double delegation power.
-                 
+                 DAO Staking is more than just earning yield; it’s a gateway to governance. lock up your tokens and earn passive income. Stake your token to get voting power in the DAO, which allows you to influence decisions on proposals, upgrades, and other developments. 
                 </p>
                 <Link href="https://www.dao.ocicat.club/" className="text-primary">
                   <button className="px-10 w-fit rounded-full bg-primary/70 text-foreground text-sm py-1 mt-3 mx-auto flex items-center">
@@ -250,9 +247,8 @@ export default function Landing() {
                   </h3>
                 </header>
                 <p className="font-montserrat text-sm pt-4">
-                  Stake Ocicat token to earn from daily pool emission.The pool
-                  has 40/60 percentage reward share with token and liquidity.
-                  Alpha pool has double delegation power.
+                 The Ocicat MiniApp is a web-based application designed to bring the core utilities of the Ocicat ecosystem into one user-friendly platform. Built for speed, engagement, and accessibility, the App empowers users to earn, play, interact, and grow within the ecosystem 
+
                  
                 </p>
                 <Link href="#" className="text-primary">
@@ -275,10 +271,8 @@ export default function Landing() {
                   </h3>
                 </header>
                 <p className="font-montserrat text-sm pt-4">
-                  Stake Ocicat token to earn from daily pool emission.The pool
-                  has 40/60 percentage reward share with token and liquidity.
-                  Alpha pool has double delegation power.
-                 
+                Ocicat NFT is a collection of unique digital collectibles called OciCats, forming the core of a creative, community-powered ecosystem known as The Dreamers Club. Each Ocicat NFT is your key to an interactive Web3 experience built around identity, community, and creativity.
+
                 </p>
                 <Link href="https://nft.ocicat.club/" className="text-primary">
                 <button className="px-10 w-fit rounded-full bg-primary/70 text-foreground text-sm py-1 mt-3 mx-auto flex items-center">
@@ -300,10 +294,7 @@ export default function Landing() {
                   </h3>
                 </header>
                 <p className="font-montserrat text-sm pt-4">
-                  Stake Ocicat token to earn from daily pool emission.The pool
-                  has 40/60 percentage reward share with token and liquidity.
-                  Alpha pool has double delegation power.
-                 
+               The Ocicat Bridge is a vital infrastructure tool within the Ocicat ecosystem. Its purpose is to enable seamless movement of tokens between different blockchains. This empowers users to stay connected, no matter which chain they use; boosting inclusivity, accessibility, and the growth of the Ocicat community globally.
                 </p>
                 <Link href="https://bridge.ocicat.club/" className="text-primary">
                 <button className="px-10 w-fit rounded-full bg-primary/70 text-foreground text-sm py-1 mt-3 mx-auto flex items-center">
