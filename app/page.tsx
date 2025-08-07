@@ -274,7 +274,7 @@ export default function Landing() {
                 Ocicat NFT is a collection of unique digital collectibles called OciCats, forming the core of a creative, community-powered ecosystem known as The Dreamers Club. Each Ocicat NFT is your key to an interactive Web3 experience built around identity, community, and creativity.
 
                 </p>
-                <Link href="https://nft.ocicat.club/" className="text-primary">
+                <Link href="https://www.dao.ocicat.club/mint" className="text-primary">
                 <button className="px-10 w-fit rounded-full bg-primary/70 text-foreground text-sm py-1 mt-3 mx-auto flex items-center">
                   Ocicat NFT
                   <ArrowRight />
