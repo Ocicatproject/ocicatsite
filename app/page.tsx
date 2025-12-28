@@ -96,19 +96,15 @@ export default function Landing() {
             >
               <span className="uppercase">Swap</span>
             </Link>
-            <Link
+      <Link
   href="https://www.mrfud.fun"
   target="_blank"
   rel="noopener noreferrer"
-  className="text-primary"
+  className="hover:bg-white/30 text-foreground flex px-4 items-center rounded-lg"
 >
+  <span className="uppercase">Mrfud</span>
+</Link>
 
-"
-              className=" hover:bg-white/30 text-foreground flex px-4 items-center rounded-lg"
-            >
-              <span className="uppercase">Mrfud</span>
-
-            </Link>
           </div>
         )}
       </header>
@@ -304,19 +300,18 @@ export default function Landing() {
                MrFUD is fair-launch launchpad platform  With anti-FUD toggle that uses a bonding curve to stop insider manipulation.
 It        rewards creators and loyal holders, with automatic liquidity migration to a DEX when targets are reachedr.
                 </p>
-               <Link
+             <Link
   href="https://www.mrfud.fun"
   target="_blank"
   rel="noopener noreferrer"
   className="text-primary"
 >
+  <button className="px-10 w-fit rounded-full bg-primary/70 text-foreground text-sm py-1 mt-3 mx-auto flex items-center">
+    MrFUD Launchpad
+    <ArrowRight />
+  </button>
+</Link>
 
-/" className="text-primary">
-                <button className="px-10 w-fit rounded-full bg-primary/70 text-foreground text-sm py-1 mt-3 mx-auto flex items-center">
-                  Launchpad
-                  <ArrowRight />
-                </button>
-                </Link>
               </div>
             </div>
           </div>
