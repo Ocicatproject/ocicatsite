@@ -97,7 +97,12 @@ export default function Landing() {
               <span className="uppercase">Swap</span>
             </Link>
             <Link
-              href="<Link href="https://www.mrfud.fun">
+  href="https://www.mrfud.fun"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="text-primary"
+>
+
 "
               className=" hover:bg-white/30 text-foreground flex px-4 items-center rounded-lg"
             >
@@ -251,8 +256,8 @@ export default function Landing() {
                 <p className="font-montserrat text-sm pt-4">
                  The Ocicat MiniApp is a web-based application designed to bring the core utilities of the Ocicat ecosystem into one user-friendly platform. Built for speed, engagement, and accessibility, the App empowers users to earn, play, interact, and grow within the ecosystem 
 
-                 
                 </p>
+
                 <Link href="#" className="text-primary">
                   <button className="px-10 w-fit rounded-full bg-primary/70 text-foreground text-sm py-1 mt-3 mx-auto flex items-center">
                     Open App
@@ -299,7 +304,13 @@ export default function Landing() {
                MrFUD is fair-launch launchpad platform  With anti-FUD toggle that uses a bonding curve to stop insider manipulation.
 It        rewards creators and loyal holders, with automatic liquidity migration to a DEX when targets are reachedr.
                 </p>
-                <Link href="<Link href="https://www.mrfud.fun">
+               <Link
+  href="https://www.mrfud.fun"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="text-primary"
+>
+
 /" className="text-primary">
                 <button className="px-10 w-fit rounded-full bg-primary/70 text-foreground text-sm py-1 mt-3 mx-auto flex items-center">
                   Launchpad
