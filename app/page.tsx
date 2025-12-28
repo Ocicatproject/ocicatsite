@@ -299,7 +299,7 @@ It        rewards creators and loyal holders, with automatic liquidity migration
                 </p>
                 <Link href="www.mrfud.fun/" className="text-primary">
                 <button className="px-10 w-fit rounded-full bg-primary/70 text-foreground text-sm py-1 mt-3 mx-auto flex items-center">
-                  Bridge Ocicat
+                  Bridge Launchpad
                   <ArrowRight />
                 </button>
                 </Link>
