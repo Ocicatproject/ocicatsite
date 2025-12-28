@@ -101,7 +101,8 @@ export default function Landing() {
 "
               className=" hover:bg-white/30 text-foreground flex px-4 items-center rounded-lg"
             >
-              <span className="uppercase"Mrfud</span>
+              <span className="uppercase">Mrfud</span>
+
             </Link>
           </div>
         )}
