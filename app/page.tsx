@@ -292,7 +292,7 @@ export default function Landing() {
                     height={20}
                   ></Image>
                   <h3 className="font-bebas text-lg text-center w-full">
-                    Ocicat Launchpad
+                     Launchpad
                   </h3>
                 </header>
                 <p className="font-montserrat text-sm pt-4">
@@ -302,7 +302,7 @@ It        rewards creators and loyal holders, with automatic liquidity migration
                 <Link href="<Link href="https://www.mrfud.fun">
 /" className="text-primary">
                 <button className="px-10 w-fit rounded-full bg-primary/70 text-foreground text-sm py-1 mt-3 mx-auto flex items-center">
-                  Mrfud Launchpad
+                  Launchpad
                   <ArrowRight />
                 </button>
                 </Link>
