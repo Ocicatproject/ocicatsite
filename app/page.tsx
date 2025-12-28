@@ -290,13 +290,14 @@ export default function Landing() {
                     height={20}
                   ></Image>
                   <h3 className="font-bebas text-lg text-center w-full">
-                    Ocicat Bridge
+                    Ocicat Launchpad
                   </h3>
                 </header>
                 <p className="font-montserrat text-sm pt-4">
-               The Ocicat Bridge is a vital infrastructure tool within the Ocicat ecosystem. Its purpose is to enable seamless movement of tokens between different blockchains. This empowers users to stay connected, no matter which chain they use; boosting inclusivity, accessibility, and the growth of the Ocicat community globally.
+               MrFUD is fair-launch launchpad platform  With anti-FUD toggle that uses a bonding curve to stop insider manipulation.
+It        rewards creators and loyal holders, with automatic liquidity migration to a DEX when targets are reachedr.
                 </p>
-                <Link href="https://bridge.ocicat.club/" className="text-primary">
+                <Link href="https://mrfud.fun/" className="text-primary">
                 <button className="px-10 w-fit rounded-full bg-primary/70 text-foreground text-sm py-1 mt-3 mx-auto flex items-center">
                   Bridge Ocicat
                   <ArrowRight />
