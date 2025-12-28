@@ -97,10 +97,10 @@ export default function Landing() {
               <span className="uppercase">Swap</span>
             </Link>
             <Link
-              href="https://bridge.ocicat.club/"
+              href="www.mrfud.fun"
               className=" hover:bg-white/30 text-foreground flex px-4 items-center rounded-lg"
             >
-              <span className="uppercase">Bridge</span>
+              <span className="uppercase"Mrfud</span>
             </Link>
           </div>
         )}
@@ -299,7 +299,7 @@ It        rewards creators and loyal holders, with automatic liquidity migration
                 </p>
                 <Link href="www.mrfud.fun/" className="text-primary">
                 <button className="px-10 w-fit rounded-full bg-primary/70 text-foreground text-sm py-1 mt-3 mx-auto flex items-center">
-                  Bridge Launchpad
+                  Mrfud Launchpad
                   <ArrowRight />
                 </button>
                 </Link>
