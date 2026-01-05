@@ -85,12 +85,7 @@ export default function Landing() {
             >
               <span className="uppercase">MiniApp</span>
             </Link>
-            <Link
-              href="https://swap.ocicat.club"
-              className=" hover:bg-white/30 text-foreground flex px-4 items-center rounded-lg"
-            >
-              <span className="uppercase">Swap</span>
-            </Link>
+    
       <Link
   href="https://www.mrfud.fun"
   target="_blank"
