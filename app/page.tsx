@@ -298,7 +298,7 @@ export default function Landing() {
                 </header>
                 <p className="font-montserrat text-sm pt-4">
                MrFUD is fair-launch launchpad platform  With anti-FUD toggle that uses a bonding curve to stop insider manipulation.
-It        rewards creators and loyal holders, with automatic liquidity migration to a DEX when targets are reachedr.
+It        rewards creators and loyal holders, with automatic liquidity migration to a DEX when targets are reached.
                 </p>
     <Link
   href="https://www.mrfud.fun"
