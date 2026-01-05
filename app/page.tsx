@@ -45,12 +45,7 @@ export default function Landing() {
           >
             <span className="uppercase">Dao Staking</span>
           </Link>
-          <Link
-            href="https://swap.ocicat.club"
-            className="bg-primary/80 hover:bg-white/30 text-foreground  flex border-black border-2 px-4 py-3  items-center rounded-lg buttonshadow"
-          >
-            <span className="uppercase">Swap</span>
-          </Link>
+        
           <Link
             href="https://docs.google.com/document/d/1c0ejUIdhtI8oISpGa6qt3eUD6z-bLW7OyqfUhD1Puz4/edit?usp=sharing"
             className="bg-primary/80 hover:bg-white/30 text-foreground flex border-black border-2 px-4 py-3 items-center rounded-lg buttonshadow"
