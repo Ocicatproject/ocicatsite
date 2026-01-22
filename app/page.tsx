@@ -236,11 +236,11 @@ export default function Landing() {
                     height={20}
                   ></Image>
                   <h3 className="font-bebas text-lg text-center w-full">
-                    Ocicat MiniApp
+                    Ocicat MiniApp(CLAW)
                   </h3>
                 </header>
                 <p className="font-montserrat text-sm pt-4">
-                 The Ocicat MiniApp is a web-based application designed to bring the core utilities of the Ocicat ecosystem into one user-friendly platform. Built for speed, engagement, and accessibility, the App empowers users to earn, play, interact, and grow within the ecosystem 
+                 The MiniApp is a web-based application designed to bring the core utilities of the Ocicat ecosystem into one user-friendly platform. Built for speed, engagement, and accessibility, the App empowers users to earn, play, interact, and grow within the ecosystem 
 
                 </p>
 
