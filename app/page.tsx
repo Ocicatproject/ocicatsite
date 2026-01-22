@@ -146,7 +146,7 @@ export default function Landing() {
               continues to drive its development and resilience.
             </p>
             <div className="w-fit mx-auto md:mx-0 md:w-[70%] flex flex-row mt-5 justify-around gap-4 border-2 buttonshadow border-black bg-primary/80 py-4  md:py-6 md:px-4 px-4 rounded-lg">
-              <Link href="https://twitter.com/ocicatcoin">
+              <Link href="https://x.com/ocicattoken">
                 <button className="bg-primary/80 w-16 h-16 text-background hover:bg-white/30 -rotate-6 flex justify-center items-center border-black border-2  rounded-lg buttonshadow">
                   <FaXTwitter className="w-6 h-6" />
                 </button>
