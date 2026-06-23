@@ -87,10 +87,10 @@ export default function Landing() {
               <span className="uppercase">Documentation</span>
             </Link>
             <Link
-              href="#"
+              href="https://nft.ocicat.club/"
               className=" hover:bg-white/30 text-foreground flex px-4 items-center rounded-lg"
             >
-              <span className="uppercase">MiniApp</span>
+              <span className="uppercase">NFT</span>
             </Link>
     
       <Link
